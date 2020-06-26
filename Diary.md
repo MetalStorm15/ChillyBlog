@@ -2,8 +2,6 @@
 
 ## May 2nd
 
-
-
 ### App for Programming
 
 我用了一下这个NotePads，发现好像并不怎么样，跟我想象中的文本编辑器差之甚远，就像是windows自带的那个NotePads一样，没什么功能。
