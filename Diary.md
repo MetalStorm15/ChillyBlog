@@ -2,7 +2,7 @@
 
 ## 5月2日
 
-[TOC]
+
 
 ### 编程软件
 
@@ -64,7 +64,7 @@ sublime text 3虽然在体积上非常占优势，并且支持很多语言的语
 
 现在我的电脑上有三个编程软件，分别是Intellij IDEA、CLion和Visual Studio Code，我现在对他们的分工是
 
-|**我对各个编辑器、IDE的使用情况**|||
+| |**我对各个编辑器、IDE的使用情况**| |
 |----|----|----|
 |Intellij IDEA|CLion|Visual Studio Code|
 |开发Java、Python程序，以及以后的JavaScript|开发C/C++程序|写Markdown文档，用来查看程序源代码，以及在IDE不方便使用的情况下编辑源代码|
@@ -116,3 +116,5 @@ sublime text 3虽然在体积上非常占优势，并且支持很多语言的语
 我的学习计划现在应该再具体的总结一下了。
 
 英语方面我怎么说呢没有*Merriam-Webster Vocabulary Builder*并不是很适合目前水平的我，所以我还是先去学习*Vocabulary in Use Upper-intermediate*。
+
+It's my first time to write something in a file in the place out of it.
