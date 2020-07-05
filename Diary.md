@@ -1,8 +1,18 @@
 # Diary
 
-<h2>May 2nd</h2>
+- [May 2nd](#may-2nd)
+  - [App for Programming](#app-for-programming)
+  - [My Career of Programming](#my-career-of-programming)
+- [May 3rd](#may-3rd)
+  - [Code Editor](#code-editor)
+- [May 4th](#may-4th)
+  - [Building Web pages](#building-web-pages)
+  - [Emacs](#emacs)
+- [Jun 12nd](#jun-12nd)
 
-<h3>App for Programming </h3>
+## May 2nd
+
+### App for Programming
 
 <div class="contents">
 <div>
@@ -39,7 +49,7 @@
 作为一个初学者就开始使用文本编辑器，而且还想要配置好，我觉得是不应该的，有这个时间还不如把语法好好学学，好好想想怎么将编程能力提升上去比什么都强。等到差不多了的时候在开始尝试使用文本编辑器，甚至不用文本编辑器，最终结果都是为了提升效率，用的是什么还用在乎那么多吗？文本编辑器配置到最后反正最后不就是IDE吗，反正到最后用的都是差不多的东西，谁还在乎怎么来的呀。
 </div>
 
-<h3>My Career of Programming</h3>
+### My Career of Programming
 
 <div class="contents">
 <div>
@@ -61,9 +71,9 @@
 Java或者C、C++听说适合用来写软件，尤其是C、C++，到时候我也可以写自己的软件了，虽然肯定没有人家的好，但是功能什么的都是自己写的，想想就有成就感啊。
 </div>
 
-<h2> May 3rd</h2>
+## May 3rd
 
-<h3>Code Editor</h3>
+### Code Editor
 
 <div class="contents">
 <div>
@@ -123,9 +133,9 @@ IDEA更好用一些，很多细节很人性化。
 我现在竟然真的在用HTML写日记，我想我真的是疯了。不过想一想觉得还可以，很不错，页面完全被我掌控，基本不用调试，多么的爽。而且添加背景图片什么的更方便了，甚至我还可以自己添加目录，自己写表格。Markdown写起来也很不错，但是首先有的Markdown编辑器并不能很好的兼容HTML的标签，而且HTML的页面更加的井井有条，缩进严格地将块分割开来，不想Markdown里面那么乱。所以我觉得了我以后就用HTML写日记了。
 </div>
 
-<h2>May 4th</h2>
+## May 4th
 
-<h3>Building Web pages</h3>
+### Building Web pages
 
 <div class="contents">
 <div>
@@ -144,7 +154,8 @@ IDEA更好用一些，很多细节很人性化。
 不过我想要的那种排版我基本上已经能够实现了，虽然还是有一部分目前我的知识水平实现不了，但是我可以先学习着试一下，等到时候再说。
 </div>
 
-<h3>Emacs</h3>
+### Emacs
+
 <div class="contents">
 <div>
 我今天下载了Emacs这个软件，不得不说这个软件真的很神奇，那些功能我基本上看不懂，我当时依旧没有办法将这个东西配置完成，功能太诡异了。
@@ -170,7 +181,7 @@ IDEA更好用一些，很多细节很人性化。
 不过还是算了，基本的东西IDEA是都有的，不用那么强求。
 </div>
 
-<h2>Jun 12nd</h2>
+## Jun 12nd
 
 <div class="contents">
 <div>
