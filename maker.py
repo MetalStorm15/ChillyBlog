@@ -1,27 +1,31 @@
-title = input("The title: ")
-writer = input("The writer or poet: ")
-body_loc = input("The location of the file of body: ")
-date = input("The date you create it(if it's your work): ")
-align = input('Text-align(if you did not type, it will be center): ')
+title = input("诗名: ")
+writer = input("作者名(默认为支离): ")
+body_loc = input("正文文件地址: ")
+date = input("创作时间: ")
 
-if align:
-    text_align = align
-else:
-    text_align = 'center'
+# 将作者名设为默认支离
+if not writer:
+    writer = '支离'
 
+# 写入内容
 with open("{0}.md".format(title), 'w') as output:
+    # 写入背景样式
     output.write("<div style='background: url(background.jpg); background-size: contain; width: 90%; position: absolute'>\n")
+    # 写入主题格式
     output.write('<div style="margin: 10%; font-family: sans-serif">\n')
+    # 写入作者名
     output.write('<h1 style="text-align: {0}">{1}</h1>'.format(text_align, title))
+    # 写入诗的作者
     output.write('<div style="text-align: right; margin: 10%">-{0}</div>\n'.format(writer))
+    # 写入诗的正文
     with open(body_loc) as contents:
         body = contents.read()
         output.write('<div style="text-align: center">\n{0}</div>\n'.format(body))
-    if date:
-        output.write('<div style="text-align: right; margin: 10%">{0}</div>\n'.format(date))
-
+    # 写入作诗的日期
+    output.write('<div style="text-align: right; margin: 10%">{0}</div>\n'.format(date))
+    # 写入关闭标签
     output.write("</div>\n" * 2)
 
+# 说明写入以完成
 print('The progress is finished.')
-
 
