@@ -14,7 +14,7 @@ with open("{0}.md".format(title), 'w') as output:
     # 写入主题格式
     output.write('<div style="margin: 10%; font-family: sans-serif">\n')
     # 写入作者名
-    output.write('<h1 style="text-align: {0}">{1}</h1>'.format(text_align, title))
+    output.write('<h1 style="text-align: center">{0}</h1>'.format(title))
     # 写入诗的作者
     output.write('<div style="text-align: right; margin: 10%">-{0}</div>\n'.format(writer))
     # 写入诗的正文
