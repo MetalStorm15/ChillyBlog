@@ -1,7 +1,4 @@
-<div style='background: url(background.jpg); background-size: contain; width: 90%; position: absolute'>
-<div style="margin: 10%; font-family: sans-serif">
-<h1 style="text-align: center">我是星</h1><div style="text-align: right; margin: 10%">-支离</div>
-<div style="text-align: center">
+
 我是星
 
 夜空中微不足道的一颗星
@@ -41,7 +38,3 @@
 我的光虽然微弱
 
 依然竭尽全力闪烁
-</div>
-<div style="text-align: right; margin: 10%">2021.3.5</div>
-</div>
-</div>

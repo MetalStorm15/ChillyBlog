@@ -1,7 +1,4 @@
-<div style='background: url(background.jpg); background-size: contain; width: 90%; position: absolute'>
-<div style="margin: 10%; font-family: sans-serif">
-<h1 style="text-align: center">软弱与坚强</h1><div style="text-align: right; margin: 10%">-支离</div>
-<div style="text-align: center">
+
 
 人们总要我坚强
 
@@ -69,7 +66,3 @@
 
 彻底扼杀在未出世的地方
 
-</div>
-<div style="text-align: right; margin: 10%">2021年2月26日</div>
-</div>
-</div>

@@ -1,7 +1,4 @@
-<div style='background: url(background.jpg); background-size: contain; width: 90%; position: absolute'>
-<div style="margin: 10%; font-family: sans-serif">
-<h1 style="text-align: center">起风了</h1><div style="text-align: right; margin: 10%">-支离</div>
-<div style="text-align: center">
+
 抬头望着繁星满天
 
 不禁感叹似水的流年
@@ -137,7 +134,3 @@
 所遇皆适，无措情于落花
 
 万般变化，无扰我心啊
-</div>
-<div style="text-align: right; margin: 10%">2021.3.4</div>
-</div>
-</div>

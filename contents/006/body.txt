@@ -1,7 +1,4 @@
-<div style='background: url(background.jpg); background-size: contain; width: 90%; position: absolute'>
-<div style="margin: 10%; font-family: sans-serif">
-<h1 style="text-align: center">囹圄</h1><div style="text-align: right; margin: 10%">-支离</div>
-<div style="text-align: center">
+
 似乎有无形的绳索
 
 捆缚着我
@@ -36,7 +33,4 @@
 
 拴住我的人
 
-也是我自己</div>
-<div style="text-align: right; margin: 10%">2021.3.8</div>
-</div>
-</div>
+也是我自己

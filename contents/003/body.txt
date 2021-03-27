@@ -1,7 +1,4 @@
-<div style='background: url(background.jpg); background-size: contain; width: 90%; position: absolute'>
-<div style="margin: 10%; font-family: sans-serif">
-<h1 style="text-align: center">指点迷津</h1><div style="text-align: right; margin: 10%">-支离</div>
-<div style="text-align: center">
+
 
 我掐着手指慢慢的算
 
@@ -107,7 +104,3 @@
 
 为自己指点迷津
 
-</div>
-<div style="text-align: right; margin: 10%">2021年2月19日</div>
-</div>
-</div>

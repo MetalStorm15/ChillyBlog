@@ -1,7 +1,4 @@
-<div style='background: url(background.jpg); background-size: contain; width: 90%; position: absolute'>
-<div style="margin: 10%; font-family: sans-serif">
-<h1 style="text-align: center">软弱与坚强·其二</h1><div style="text-align: right; margin: 10%">-支离</div>
-<div style="text-align: center">
+
 
 我是一只刺猬，
 
@@ -32,7 +29,3 @@
 不敢暴露在众人的眼光，
 
 那只会增加新的创伤。
-</div>
-<div style="text-align: right; margin: 10%">2021.3.1</div>
-</div>
-</div>

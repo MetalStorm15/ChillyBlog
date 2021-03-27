@@ -1,7 +1,4 @@
-<div style='background: url(background.jpg); background-size: contain; width: 90%; position: absolute'>
-<div style="margin: 10%; font-family: sans-serif">
-<h1 style="text-align: center">奔跑</h1><div style="text-align: right; margin: 10%">-支离</div>
-<div style="text-align: center">
+
 短短的几分钟里
 
 我便只顾得上喘息
@@ -41,7 +38,3 @@
 只得不顾身心俱疲
 
 继续奔跑，直到抵达终极
-</div>
-<div style="text-align: right; margin: 10%">2021.3.2</div>
-</div>
-</div>
