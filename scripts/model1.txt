@@ -1,13 +1,12 @@
-<@DOCTYPE html>
 <html>
     <head>
-        <title>the title</title>
-        <meta len='zh-cn'>
+        <title>split</title>
+		<link rel="stylesheet" type="text/css" href="style/style.css">
     </head>
     <body>
-        <h1 class='name'>the name</h1>
+        <h1 class='name'>split</h1>
         <div class='poem_body'>
-            the body of poem
+            split
         </div>
     </body>
 </html>
