@@ -1,31 +1,47 @@
 import os
 import re
 
-def make_sites(poem_numbers='all'):
-    if poem_numbers == 'all':
-        poem_numbers = os.listdir('../contents')
-    
+def make_sites():
+    poem_numbers = os.listdir('../texts')
     for poem_number in poem_numbers:
-        with open('../contents/{0}/name.txt'.format(poem_number)) as file:
+        with open('../texts/{0}/name.txt'.format(poem_number)) as file:
             poem_name = file.read()
 
-        with open('../contents/{0}/body.txt'.format(poem_number)) as file:
+        with open('../texts/{0}/body.txt'.format(poem_number)) as file:
             poem_body = file.readlines()
 
-        with open('model1.txt') as file:
+        with open('model1.html') as file:
             model = file.read()
-        
-        model = re.split('split', model)
-        
-        with open ('../{0}.html'.format(poem_number), 'w') as file:
-            file.write(model[0])
-            file.write(poem_name)
-            file.write(model[1])
-            file.write(poem_name)
-            file.write(model[2])
-            for line in poem_body:
+        body = ''
+        for line in poem_body:
                 if not line == '\n':
                     line = '<p>\n' + line + '</p>\n'
-                    file.write(line)
-            file.write(model[3])
+                    body += line
+        model = model.replace('the title', poem_name)
+        model = model.replace('the body', body)
+
+        with open ('../{0}.html'.format(poem_number), 'w') as file:
+            file.write(model)
+
+def make_contents():
+    file_names = os.listdir('../texts')
+    files = []
+    for f_name in file_names:
+        files.append(int(f_name))
+    files.sort()
+    contents = ''
+    for file in files:
+        with open('../texts/{0}/name.txt'.format(str(file))) as f:
+            name = f.read()
+            name = name.replace('\n', '')
+        contents += '<li><a href="./{0}.html">{1}</a></li>\n'.format(str(file), name)
+    with open('./model2.html') as f:
+        model = f.read()
+    with open('../contents.html', 'w') as f:
+        model = model.replace('the list', contents)
+        f.write(model)
+
+
+make_sites()
+make_contents()
 

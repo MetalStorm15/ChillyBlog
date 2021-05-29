@@ -1,8 +1,31 @@
-.name {
-	text_align: center;
-
+.main_body {
+  text-align: center;
+  font-family: '楷体', inherit;
+  margin-left: 10%;
+  margin-right: 10%;
+  background-image: url(../image/background.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: repeat-y;
+  padding: 5%;
 }
-.poem_body {
-	text_align: center;
 
+.poem_title {
+  margin: 10%;
+}
+
+.poem_body {
+  margin: 10%;
+  font-size: 20px;
+}
+
+.footer {
+  background-color: black;
+  text-align: center;
+  font-style: italic;
+  color: white;
+  margin-left: 10%;
+  margin-right: 10%;
+  height: 100px;
+  padding: 20px;
 }
