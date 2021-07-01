@@ -1,1 +1,4 @@
-.*.txt
+*.pyc
+_pycache_
+*.swp
+
