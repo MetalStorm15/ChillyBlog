@@ -4,14 +4,28 @@
         <meta charset='utf-8'>
         <title>棱角
 </title>
-        <link rel='stylesheet' type='text/css' href='./style/style.css'>
+        <link rel='stylesheet' type='text/css' href='../style/style.css'>
+        <style>
+            #background {
+                background-image: url('https://tse1-mm.cn.bing.net/th/id/OIP-C.UpHFBm8pw60MnmA6louBowHaE8?w=275&h=183&c=7&o=5&pid=1.7');
+            }
+        </style>
     </head>
     <body>
-        <div class='main_body'>
-            <h1 class='poem_title'>棱角
+        <div id='header'>
+            <h1 id='poem_title'>棱角
 </h1>
-            <div class='poem_body'>
-<p>
+        </div>        
+        <div id='background'>
+            <div id="section">
+                <div class='jump'>
+                    <a href="16.html">上一首</a>
+                    <a href="../contents/catalogue.html">目录</a>
+                    <a href="18.html">下一首</a>
+                </div>
+
+                <div id='poem_body'>
+                    <p>
 有一块石头，长满了棱角，
 </p>
 <p>
@@ -78,16 +92,28 @@
 再掀不起一丝波澜。
 </p>
 
+                </div>
+                <div class='jump'>
+                    <a href="16.html">上一首</a>
+                    <a href="../contents/catalogue.html">目录</a>
+                    <a href="18.html">下一首</a>
+                </div>
             </div>
         </div>
-        <div class='nav'>
-            <a href="16">上一首</a>
-            <a href="./contents.html">目录</a>
-            <a href="18">下一首</a>
-        </div>
-        <div class='footer'>
-          <p>作者: 支离</p>
-          <p>未经许可，请勿转载</p>
+        <div id="footer">
+            <p>作者: 支离</p>
+            <p>未经许可，请勿转载</p>
         </div>
     </body>
+    <script language='javascript'>
+        document.onkeydown=keypage;
+        var prevpage="16.html"
+        var nextpage="18.html"
+        var index_page = "../contents/catalogue.html"
+        function keypage() {
+            if (event.keyCode==37) location=prevpage
+            if (event.keyCode==39) location=nextpage
+            if (event.keyCode == 13) document.location=index_page
+        }
+    </script>
 </html>

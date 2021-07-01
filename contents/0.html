@@ -3,13 +3,27 @@
     <head>
         <meta charset='utf-8'>
         <title>似水流年(现代诗)</title>
-        <link rel='stylesheet' type='text/css' href='./style/style.css'>
+        <link rel='stylesheet' type='text/css' href='../style/style.css'>
+        <style>
+            #background {
+                background-image: url('https://tse1-mm.cn.bing.net/th/id/OIP-C.UpHFBm8pw60MnmA6louBowHaE8?w=275&h=183&c=7&o=5&pid=1.7');
+            }
+        </style>
     </head>
     <body>
-        <div class='main_body'>
-            <h1 class='poem_title'>似水流年(现代诗)</h1>
-            <div class='poem_body'>
-<p>
+        <div id='header'>
+            <h1 id='poem_title'>似水流年(现代诗)</h1>
+        </div>        
+        <div id='background'>
+            <div id="section">
+                <div class='jump'>
+                    <a href="../contents/catalogue.html">上一首</a>
+                    <a href="../contents/catalogue.html">目录</a>
+                    <a href="1.html">下一首</a>
+                </div>
+
+                <div id='poem_body'>
+                    <p>
 抬头望着繁星满天
 </p>
 <p>
@@ -52,16 +66,28 @@
 却终究敌不过这似水的流年
 </p>
 
+                </div>
+                <div class='jump'>
+                    <a href="../contents/catalogue.html">上一首</a>
+                    <a href="../contents/catalogue.html">目录</a>
+                    <a href="1.html">下一首</a>
+                </div>
             </div>
         </div>
-        <div class='nav'>
-            <a href="/home/chilly/Poet/contents/catalogue.html">上一首</a>
-            <a href="./contents.html">目录</a>
-            <a href="/home/chilly/Poet/contents/catalogue.html">下一首</a>
-        </div>
-        <div class='footer'>
-          <p>作者: 支离</p>
-          <p>未经许可，请勿转载</p>
+        <div id="footer">
+            <p>作者: 支离</p>
+            <p>未经许可，请勿转载</p>
         </div>
     </body>
+    <script language='javascript'>
+        document.onkeydown=keypage;
+        var prevpage="../contents/catalogue.html"
+        var nextpage="1.html"
+        var index_page = "../contents/catalogue.html"
+        function keypage() {
+            if (event.keyCode==37) location=prevpage
+            if (event.keyCode==39) location=nextpage
+            if (event.keyCode == 13) document.location=index_page
+        }
+    </script>
 </html>
