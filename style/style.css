@@ -7,21 +7,21 @@ body {
     color:white;
     text-align:center;
     padding:5px;
+    height: 100px;
 }
 #background {
   text-align: center;
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
-  background-attachment: fixed;
 }
 #section {
   margin-top: 0%;
   margin-bottom: 0%;
   margin-right: 25%;
   margin-left: 25%;
-  font-size: 25px;
-  opacity: 0.8;
+  font-size: 30px;
+  opacity: 0.5;
   background-color: gray;
 }
 #footer {
