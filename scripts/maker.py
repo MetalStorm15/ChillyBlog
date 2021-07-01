@@ -95,9 +95,9 @@ def make(texts_dir, model_1, model_2, output, contents):
     make_sites(texts_dir, model_1, output, contents)
 
 
-texts_dir = '/home/chilly/Poet/texts/'
-model_1 = '/home/chilly/Poet/scripts/model1.html'
-model_2 = '/home/chilly/Poet/scripts/model2.html'
-output = '/home/chilly/Poet/'
-contents = '/home/chilly/Poet/contents.html'
+texts_dir = '/home/chilly/Poet/sources/texts/'
+model_1 = '/home/chilly/Poet/sources/models/model1.html'
+model_2 = '/home/chilly/Poet/sources/models/model2.html'
+output = '/home/chilly/Poet/contents/'
+contents = '/home/chilly/Poet/contents/catalogue.html'
 make(texts_dir, model_1, model_2, output, contents)
