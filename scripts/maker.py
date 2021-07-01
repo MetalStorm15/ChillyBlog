@@ -108,9 +108,9 @@ def make(texts_dir, model_1, model_2, output, catalogue):
 
 
 # change the path below based on the real environments
-texts_dir = '../resources/texts/'
-model_1 = '../resources/models/model1.html'
-model_2 = '../resources/models/model2.html'
-output = '../contents/'
-catalogue = '../contents/catalogue.html'
+texts_dir = './Poet/resources/texts/'
+model_1 = './Poet/resources/models/model1.html'
+model_2 = './Poet/resources/models/model2.html'
+output = './Poet/contents/'
+catalogue = './Poet/contents/catalogue.html'
 make(texts_dir, model_1, model_2, output, catalogue)
