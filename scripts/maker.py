@@ -7,18 +7,19 @@
 #       name.txt
 #       body.txt
 #
-# In order to keey files in order, every poem have two files, stored in a separated directory named by sequential numbers, which are 'name.txt', 
+# In order to keey files in order, every poem have two files, stored in a separated
+# directory named by sequential numbers, which are 'name.txt',
 # containing the name, and 'body.txt', containing the main body.
 
 import os
-import re
+
 
 def make_sites(texts_dir, model_loc, output, catalogue):
     """
     texts_dir: the directory where the texts stored.
     model_loc: the location of the file containing the model for the sites showing the poetry.
     output: the directory storing the html files.
-    catalogue: the location of the catalogue file.
+    catalogue_file: the location of the catalogue_file file.
 
     Note: The '/' at end is necessary.
 
@@ -41,33 +42,34 @@ def make_sites(texts_dir, model_loc, output, catalogue):
                 body += line
 
         if poem == '0':
-            previous = catalogue
+            previous_page = catalogue
             n = int(poem) + 1
-            next = str(n) + '.html'
+            next_page = str(n) + '.html'
         elif int(poem) == len(poem) - 1:
             p = int(poem) - 1
-            next = catalogue
-            previous = str(p) + '.html'
+            next_page = catalogue
+            previous_page = str(p) + '.html'
         else:
             p = int(poem) - 1
             n = int(poem) + 1
-            next = str(n) + '.html'
-            previous = str(p) + '.html'
+            next_page = str(n) + '.html'
+            previous_page = str(p) + '.html'
 
         model = model.replace('the title', poem_name)
         model = model.replace('the body', body)
-        model = model.replace('the previous', previous)
-        model = model.replace('the next', next)
-        model = model.replace('the catalogue', catalogue)
+        model = model.replace('the previous_page', previous_page)
+        model = model.replace('the next_page', next_page)
+        model = model.replace('the catalogue_file', catalogue)
 
         with open(output + poem + '.html', 'w', encoding='utf-8') as file:
             file.write(model)
+
 
 def make_catalogue(texts_dir, model_loc, catalogue):
     """
     texts_dir: the directory where the texts stored.
     model_loc: the file containing the model for the contents.
-    output: the catalogue file made by this function.
+    output: the catalogue_file file made by this function.
 
     Note: The '/' at end is necessary.
 
@@ -89,6 +91,7 @@ def make_catalogue(texts_dir, model_loc, catalogue):
     with open(catalogue, 'w', encoding='utf-8') as f:
         model = model.replace('the list', contents_list)
         f.write(model)
+
 
 def make_md(texts_dir, output='../Poetry.md'):
     """
@@ -120,16 +123,17 @@ def make_md(texts_dir, output='../Poetry.md'):
                 f.write('{0}\n'.format(line))
             f.write('\n-----\n\n')
 
+
 def make(texts_dir, model_1, model_2, output, catalogue, md_file='../Poetry.md'):
     """
     texts_dir: the directory containing all you texts.
     model_1: the model for sites.
-    model_2: the model for catalogue.
+    model_2: the model for catalogue_file.
     output: the directory containing all the produced files.
     md_file: the markdown file containing all the poetry.
-    catalogue: the catalogue file produced by make_contents() and also the one used in make_sites().
+    catalogue_file: the catalogue_file file produced by make_contents() and also the one used in make_sites().
 
-    Note: the catalogue file must in the output directory.
+    Note: the catalogue_file file must in the output directory.
 
     This is a function to build websites files for poetry.
     """
@@ -139,9 +143,9 @@ def make(texts_dir, model_1, model_2, output, catalogue, md_file='../Poetry.md')
 
 
 # change the path below based on the real environments
-texts_dir = '../resources/texts/'
-model_1 = '../resources/models/model1.html'
-model_2 = '../resources/models/model2.html'
-output = '../contents/'
-catalogue = '../contents/catalogue.html'
-make(texts_dir, model_1, model_2, output, catalogue)
+texts = '../resources/texts/'
+model_sites = '../resources/models/model1.html'
+model_catalogue = '../resources/models/model2.html'
+output_dir = '../contents/'
+catalogue_file = '../contents/catalogue_file.html'
+make(texts, model_sites, model_catalogue, output_dir, catalogue_file)

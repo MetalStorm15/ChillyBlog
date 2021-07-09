@@ -9,6 +9,18 @@
                 background-image: url('../image/0.jpeg');
             }
         </style>
+        <script lang="javascript" type='text/javascript'>
+            function jump(e) {
+                if (e.which === 37) {
+                    window.location.href = "5.html";
+                }else if (e.which === 39) {
+                    window.location.href = "7.html";
+                }else if (e.which === 13) {
+                    window.location.href = "../contents/catalogue.html";
+                }
+            }
+            document.onkeydown = jump;
+        </script>
     </head>
     <body>
         <div id='header'>
@@ -81,15 +93,5 @@
             <p>未经许可，请勿转载</p>
         </div>
     </body>
-    <script language='javascript'>
-        document.onkeydown=keypage;
-        var prevpage="5.html"
-        var nextpage="7.html"
-        var index_page = "../contents/catalogue.html"
-        function keypage() {
-            if (event.keyCode==37) location=prevpage
-            if (event.keyCode==39) location=nextpage
-            if (event.keyCode == 13) document.location=index_page
-        }
-    </script>
+
 </html>
