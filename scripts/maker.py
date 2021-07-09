@@ -38,7 +38,7 @@ def make_sites(texts_dir, model_loc, output, catalogue):
         body = ''
         for line in poem_body:
             if not line == '\n':
-                line = '<p>\n' + line + '</p>\n'
+                line = ' ' * 8 + '<p>' + line[:-1] + '</p>\n'
                 body += line
 
         if poem == '0':
@@ -57,9 +57,9 @@ def make_sites(texts_dir, model_loc, output, catalogue):
 
         model = model.replace('the title', poem_name)
         model = model.replace('the body', body)
-        model = model.replace('the previous_page', previous_page)
-        model = model.replace('the next_page', next_page)
-        model = model.replace('the catalogue_file', catalogue)
+        model = model.replace('the previous', previous_page)
+        model = model.replace('the next', next_page)
+        model = model.replace('the catalogue', catalogue)
 
         with open(output + poem + '.html', 'w', encoding='utf-8') as file:
             file.write(model)
@@ -109,7 +109,7 @@ def make_md(texts_dir, output='../Poetry.md'):
     for poem_number in poem_numbers:
         poems_n.append(str(poem_number))
     poems = poems_n[:]
-    with open(output, 'w') as f:
+    with open(output, 'w', encoding='utf-8') as f:
         f.write('# Poetry\n\n')
         f.write('[TOC]\n\n')
         for poem in poems:

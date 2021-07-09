@@ -6,7 +6,7 @@
         <link rel='stylesheet' type='text/css' href='../style/style.css'>
         <style>
             #background {
-                background-image: url('../image/0.jpeg');
+                background-image: url('../image/background.jpeg');
             }
         </style>
         <script lang="javascript" type='text/javascript'>
@@ -16,64 +16,49 @@
                 }else if (e.which === 39) {
                     window.location.href = "20.html";
                 }else if (e.which === 13) {
-                    window.location.href = "../contents/catalogue.html";
+                    window.location.href = "../contents/catalogue_file.html";
                 }
             }
             document.onkeydown = jump;
         </script>
     </head>
     <body>
-        <div id='header'>
-            <h1 id='poem_title'>刹那永恒（其二）</h1>
-        </div>        
-        <div id='background'>
-            <div id="section">
-                <div class='jump'>
-                    <a href="18.html">上一首</a>
-                    <a href="../contents/catalogue.html">目录</a>
-                    <a href="20.html">下一首</a>
-                </div>
+    <div id="nav">
+        <ul>
+            <li><a href="../index.html">首页</a></li>
+            <li><a href="18.html">上一首</a></li>
+            <li><a href="../contents/catalogue_file.html">目录</a></li>
+            <li><a href="20.html">下一首</a></li>
+        </ul>
+    </div>
 
-                <div id='poem_body'>
-                    <p>
-看日起日落，满天星罗，
-</p>
-<p>
-看风起云涌，列缺天火，
-</p>
-<p>
-诞自虚无，复归寥落。
-</p>
-<p>
-看经久不衰，历久不移，
-</p>
-<p>
-看刹那之间，转瞬即逝，
-</p>
-<p>
-不得永恒，莫不安息。
-</p>
-<p>
-漫长与短暂，
-</p>
-<p>
-何故措情于其间，
-</p>
-<p>
-谁知结束不是新的起点。</p>
+    <div id='header'>
+        <h1 id='poem_title'>刹那永恒（其二）</h1>
+    </div>
 
-                </div>
-                <div class='jump'>
-                    <a href="18.html">上一首</a>
-                    <a href="../contents/catalogue.html">目录</a>
-                    <a href="20.html">下一首</a>
-                </div>
-            </div>
-        </div>
-        <div id="footer">
-            <p>作者: 支离</p>
-            <p>未经许可，请勿转载</p>
-        </div>
+    <div id="section">
+        <p>看日起日落，满天星罗，</p>
+        <p>看风起云涌，列缺天火，</p>
+        <p>诞自虚无，复归寥落。</p>
+        <p>看经久不衰，历久不移，</p>
+        <p>看刹那之间，转瞬即逝，</p>
+        <p>不得永恒，莫不安息。</p>
+        <p>漫长与短暂，</p>
+        <p>何故措情于其间，</p>
+        <p>谁知结束不是新的起点</p>
+
+    </div>
+    <div id='jump'>
+        <ul>
+            <li><a href="18.html">上一首</a></li>
+            <li><a href="../contents/catalogue_file.html">目录</a></li>
+            <li><a href="20.html">下一首</a></li>
+        </ul>
+    </div>
+    <div id="footer">
+        <p>作者: 支离</p>
+        <p>未经许可，请勿转载</p>
+    </div>
     </body>
 
 </html>

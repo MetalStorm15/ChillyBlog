@@ -1,34 +1,44 @@
 body {
-  font-family: Kaiti, sans-serif;
+    font-family: Kaiti, sans-serif;
+    background-image: url("../image/background.jpg");
+    background-size: contain;
+    background-position: center;
+    background-repeat: repeat-y;
 }
-
+ul {
+    list-style-type: none;
+}
+li {
+    display: inline;
+}
+a {
+    color: white;
+}
+#nav {
+    height: 30px;
+    width: 100%;
+    text-align: center;
+}
 #header {
-    background-color:black;
-    color:white;
+    color: white;
     text-align:center;
     padding:5px;
     height: 100px;
 }
-#background {
-  text-align: center;
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-}
 #section {
-  margin-top: 0%;
-  margin-bottom: 0%;
-  margin-right: 25%;
-  margin-left: 25%;
-  font-size: 30px;
-  opacity: 0.5;
-  background-color: gray;
+    text-align: center;
+    margin: 0 25%;
+    padding: 30px;
+    font-size: 30px;
+    opacity: 0.5;
+    background-color: gray;
 }
 #footer {
-  background-color: black;
-  text-align: center;
-  font-style: italic;
-  color: white;
-  height: 100px;
-  padding: 20px;
+    text-align: center;
+    font-style: italic;
+    padding: 20px;
+    color: white;
+}
+#jump {
+    text-align: center;
 }

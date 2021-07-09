@@ -2,12 +2,11 @@
 <html lang='zh-cn'>
     <head>
         <meta charset='utf-8'>
-        <title>未来
-</title>
+        <title>未来</title>
         <link rel='stylesheet' type='text/css' href='../style/style.css'>
         <style>
             #background {
-                background-image: url('../image/0.jpeg');
+                background-image: url('../image/background.jpeg');
             }
         </style>
         <script lang="javascript" type='text/javascript'>
@@ -17,56 +16,46 @@
                 }else if (e.which === 39) {
                     window.location.href = "37.html";
                 }else if (e.which === 13) {
-                    window.location.href = "../contents/catalogue.html";
+                    window.location.href = "../contents/catalogue_file.html";
                 }
             }
             document.onkeydown = jump;
         </script>
     </head>
     <body>
-        <div id='header'>
-            <h1 id='poem_title'>未来
-</h1>
-        </div>        
-        <div id='background'>
-            <div id="section">
-                <div class='jump'>
-                    <a href="35.html">上一首</a>
-                    <a href="../contents/catalogue.html">目录</a>
-                    <a href="37.html">下一首</a>
-                </div>
+    <div id="nav">
+        <ul>
+            <li><a href="../index.html">首页</a></li>
+            <li><a href="35.html">上一首</a></li>
+            <li><a href="../contents/catalogue_file.html">目录</a></li>
+            <li><a href="37.html">下一首</a></li>
+        </ul>
+    </div>
 
-                <div id='poem_body'>
-                    <p>
-我时常憧憬未来，
-</p>
-<p>
-因为我拥有现在。
-</p>
-<p>
-我想知道在未来，
-</p>
-<p>
-我们能不能走到永远。
-</p>
-<p>
-我想知道在未来，
-</p>
-<p>
-我能否克服所有困难。</p>
+    <div id='header'>
+        <h1 id='poem_title'>未来</h1>
+    </div>
 
-                </div>
-                <div class='jump'>
-                    <a href="35.html">上一首</a>
-                    <a href="../contents/catalogue.html">目录</a>
-                    <a href="37.html">下一首</a>
-                </div>
-            </div>
-        </div>
-        <div id="footer">
-            <p>作者: 支离</p>
-            <p>未经许可，请勿转载</p>
-        </div>
+    <div id="section">
+        <p>我时常憧憬未来，</p>
+        <p>因为我拥有现在。</p>
+        <p>我想知道在未来，</p>
+        <p>我们能不能走到永远。</p>
+        <p>我想知道在未来，</p>
+        <p>我能否克服所有困难</p>
+
+    </div>
+    <div id='jump'>
+        <ul>
+            <li><a href="35.html">上一首</a></li>
+            <li><a href="../contents/catalogue_file.html">目录</a></li>
+            <li><a href="37.html">下一首</a></li>
+        </ul>
+    </div>
+    <div id="footer">
+        <p>作者: 支离</p>
+        <p>未经许可，请勿转载</p>
+    </div>
     </body>
 
 </html>

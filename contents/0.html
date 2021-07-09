@@ -6,90 +6,64 @@
         <link rel='stylesheet' type='text/css' href='../style/style.css'>
         <style>
             #background {
-                background-image: url('../image/0.jpeg');
+                background-image: url('../image/background.jpeg');
             }
         </style>
         <script lang="javascript" type='text/javascript'>
             function jump(e) {
-                let key = e.which;
-                if (key === 37) {
-                    window.location.href = "../contents/catalogue.html";
-                }else if (key === 39) {
+                if (e.which === 37) {
+                    window.location.href = "../contents/catalogue_file.html";
+                }else if (e.which === 39) {
                     window.location.href = "1.html";
-                }else if (key === 13) {
-                    window.location.href = "../contents/catalogue.html";
+                }else if (e.which === 13) {
+                    window.location.href = "../contents/catalogue_file.html";
                 }
             }
             document.onkeydown = jump;
         </script>
     </head>
     <body>
-        <div id='header'>
-            <h1 id='poem_title'>似水流年(现代诗)</h1>
-        </div>        
-        <div id='background'>
-            <div id="section">
-                <div class='jump'>
-                    <a href="../contents/catalogue.html">上一首</a>
-                    <a href="../contents/catalogue.html">目录</a>
-                    <a href="1.html">下一首</a>
-                </div>
+    <div id="nav">
+        <ul>
+            <li><a href="../index.html">首页</a></li>
+            <li><a href="../contents/catalogue_file.html">上一首</a></li>
+            <li><a href="../contents/catalogue_file.html">目录</a></li>
+            <li><a href="1.html">下一首</a></li>
+        </ul>
+    </div>
 
-                <div id='poem_body'>
-                    <p>
-抬头望着繁星满天，
-</p>
-<p>
-不禁感叹时光荏苒。
-</p>
-<p>
-昔日龌龊重现眼前，
-</p>
-<p>
-才恍然发现，
-</p>
-<p>
-快乐是那么短暂。
-</p>
-<p>
-是谁偷走了我的时间？
-</p>
-<p>
-让我无暇留恋。
-</p>
-<p>
-时光随着矢箭，
-</p>
-<p>
-离开满月的弓弦，
-</p>
-<p>
-一去不复返。
-</p>
-<p>
-纵使万般留连，
-</p>
-<p>
-在这繁华世间，
-</p>
-<p>
-愿将一切奉献，
-</p>
-<p>
-却终究敌不过这似水的流年。</p>
+    <div id='header'>
+        <h1 id='poem_title'>似水流年(现代诗)</h1>
+    </div>
 
-                </div>
-                <div class='jump'>
-                    <a href="../contents/catalogue.html">上一首</a>
-                    <a href="../contents/catalogue.html">目录</a>
-                    <a href="1.html">下一首</a>
-                </div>
-            </div>
-        </div>
-        <div id="footer">
-            <p>作者: 支离</p>
-            <p>未经许可，请勿转载</p>
-        </div>
+    <div id="section">
+        <p>抬头望着繁星满天，</p>
+        <p>不禁感叹时光荏苒。</p>
+        <p>昔日龌龊重现眼前，</p>
+        <p>才恍然发现，</p>
+        <p>快乐是那么短暂。</p>
+        <p>是谁偷走了我的时间？</p>
+        <p>让我无暇留恋。</p>
+        <p>时光随着矢箭，</p>
+        <p>离开满月的弓弦，</p>
+        <p>一去不复返。</p>
+        <p>纵使万般留连，</p>
+        <p>在这繁华世间，</p>
+        <p>愿将一切奉献，</p>
+        <p>却终究敌不过这似水的流年</p>
+
+    </div>
+    <div id='jump'>
+        <ul>
+            <li><a href="../contents/catalogue_file.html">上一首</a></li>
+            <li><a href="../contents/catalogue_file.html">目录</a></li>
+            <li><a href="1.html">下一首</a></li>
+        </ul>
+    </div>
+    <div id="footer">
+        <p>作者: 支离</p>
+        <p>未经许可，请勿转载</p>
+    </div>
     </body>
 
 </html>

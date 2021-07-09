@@ -2,12 +2,11 @@
 <html lang='zh-cn'>
     <head>
         <meta charset='utf-8'>
-        <title>我是星·貌合神离
-</title>
+        <title>我是星·貌合神离</title>
         <link rel='stylesheet' type='text/css' href='../style/style.css'>
         <style>
             #background {
-                background-image: url('../image/0.jpeg');
+                background-image: url('../image/background.jpeg');
             }
         </style>
         <script lang="javascript" type='text/javascript'>
@@ -17,65 +16,49 @@
                 }else if (e.which === 39) {
                     window.location.href = "13.html";
                 }else if (e.which === 13) {
-                    window.location.href = "../contents/catalogue.html";
+                    window.location.href = "../contents/catalogue_file.html";
                 }
             }
             document.onkeydown = jump;
         </script>
     </head>
     <body>
-        <div id='header'>
-            <h1 id='poem_title'>我是星·貌合神离
-</h1>
-        </div>        
-        <div id='background'>
-            <div id="section">
-                <div class='jump'>
-                    <a href="11.html">上一首</a>
-                    <a href="../contents/catalogue.html">目录</a>
-                    <a href="13.html">下一首</a>
-                </div>
+    <div id="nav">
+        <ul>
+            <li><a href="../index.html">首页</a></li>
+            <li><a href="11.html">上一首</a></li>
+            <li><a href="../contents/catalogue_file.html">目录</a></li>
+            <li><a href="13.html">下一首</a></li>
+        </ul>
+    </div>
 
-                <div id='poem_body'>
-                    <p>
-我是星，
-</p>
-<p>
-浩瀚银河中的一颗星。
-</p>
-<p>
-我有数不尽的同伴，
-</p>
-<p>
-却有不可逾越的天堑
-</p>
-<p>
-横在我们之间。
-</p>
-<p>
-相隔数个光年，
-</p>
-<p>
-永不会相见。
-</p>
-<p>
-我早已习惯与孤独为伴，
-</p>
-<p>
-貌合神离的孤单。</p>
+    <div id='header'>
+        <h1 id='poem_title'>我是星·貌合神离</h1>
+    </div>
 
-                </div>
-                <div class='jump'>
-                    <a href="11.html">上一首</a>
-                    <a href="../contents/catalogue.html">目录</a>
-                    <a href="13.html">下一首</a>
-                </div>
-            </div>
-        </div>
-        <div id="footer">
-            <p>作者: 支离</p>
-            <p>未经许可，请勿转载</p>
-        </div>
+    <div id="section">
+        <p>我是星，</p>
+        <p>浩瀚银河中的一颗星。</p>
+        <p>我有数不尽的同伴，</p>
+        <p>却有不可逾越的天堑</p>
+        <p>横在我们之间。</p>
+        <p>相隔数个光年，</p>
+        <p>永不会相见。</p>
+        <p>我早已习惯与孤独为伴，</p>
+        <p>貌合神离的孤单</p>
+
+    </div>
+    <div id='jump'>
+        <ul>
+            <li><a href="11.html">上一首</a></li>
+            <li><a href="../contents/catalogue_file.html">目录</a></li>
+            <li><a href="13.html">下一首</a></li>
+        </ul>
+    </div>
+    <div id="footer">
+        <p>作者: 支离</p>
+        <p>未经许可，请勿转载</p>
+    </div>
     </body>
 
 </html>
