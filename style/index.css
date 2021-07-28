@@ -1,0 +1,38 @@
+body {
+    font-family: Kaiti, sans-serif;
+    background-image: url("../image/background.webp");
+    background-size: contain;
+    background-position: center;
+    background-repeat: repeat-y;
+}
+h2 {
+    text-align: center;
+}
+a {
+    color: white;
+}
+#nav {
+    height: 30px;
+    width: 100%;
+    text-align: center;
+}
+#header {
+    color: white;
+    text-align: center;
+    padding:5px;
+    height: 100px;
+}
+#section {
+    text-align: left;
+    margin: 0 25%;
+    padding: 30px;
+    font-size: 30px;
+    opacity: 0.5;
+    background-color: gray;
+}
+#footer {
+    text-align: center;
+    font-style: italic;
+    padding: 20px;
+    color: white;
+}

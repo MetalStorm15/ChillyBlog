@@ -38,14 +38,14 @@ def make_sites(texts_dir, model_loc, output, catalogue):
         body = ''
         for line in poem_body:
             if not line == '\n':
-                line = ' ' * 8 + '<p>' + line[:-1] + '</p>\n'
+                line = '\t\t<p>' + line[:-1] + '</p>\n'
                 body += line
 
         if poem == '0':
             previous_page = catalogue
             n = int(poem) + 1
             next_page = str(n) + '.html'
-        elif int(poem) == len(poem) - 1:
+        elif int(poem) == len(poems) - 1:
             p = int(poem) - 1
             next_page = catalogue
             previous_page = str(p) + '.html'
@@ -85,7 +85,7 @@ def make_catalogue(texts_dir, model_loc, catalogue):
         with open(texts_dir + str(file) + '/name.txt', encoding='utf-8') as f:
             name = f.read()
             name = name.replace('\n', '')
-        contents_list += '<li><a href="./{0}.html">{1}</a></li>\n'.format(str(file), name)
+        contents_list += '\t\t\t<li><a href="./{0}.html">{1}</a></li>\n'.format(str(file), name)
     with open(model_loc, encoding='utf-8') as f:
         model = f.read()
     with open(catalogue, 'w', encoding='utf-8') as f:
@@ -147,5 +147,5 @@ texts = '../resources/texts/'
 model_sites = '../resources/models/model1.html'
 model_catalogue = '../resources/models/model2.html'
 output_dir = '../contents/'
-catalogue_file = '../contents/catalogue_file.html'
+catalogue_file = '../contents/catalogue.html'
 make(texts, model_sites, model_catalogue, output_dir, catalogue_file)
