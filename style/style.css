@@ -1,9 +1,9 @@
 body {
     font-family: Kaiti, sans-serif;
-    background-image: url("../image/background.webp");
-    background-size: cover;
+    background-image: url("../image/background.jpg");
+    background-size: contain;
     background-position: center;
-    background-repeat: repeat-y;
+    background-attachment: fixed;
 }
 ul {
     list-style-type: none;
@@ -26,12 +26,12 @@ a {
     height: 100px;
 }
 #section {
+    color: white;
     text-align: center;
     margin: 0 25%;
     padding: 30px;
     font-size: 30px;
     opacity: 0.5;
-    background-color: gray;
 }
 #footer {
     text-align: center;
