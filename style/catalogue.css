@@ -1,7 +1,19 @@
-.catalogue {
-    text-align: left;
-    margin-left: 30%;
+body {
+    font-family: Kaiti, sans-serif;
+    background-image: url("../image/background.jpg");
+    background-size: contain;
+    background-position: center;
+    background-attachment: fixed;
+    color: white;
 }
 h1 {
     text-align: center;
+}
+.catalogue {
+    text-align: left;
+    margin: 5% 40%;
+    position: center;
+}
+a {
+    color: white;
 }
