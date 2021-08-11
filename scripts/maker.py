@@ -10,7 +10,7 @@
 #
 # 每首诗需要两个文件，name.txt和body.txt，分别存储诗的名字和正文，再将这两个文件放到一个文件中，
 # 将所有的文件夹以从0开始的数字命名统一放到你的text_dir目录中。
-from scripts.functions import *
+from functions import *
 
 # 根据实际情况修改路径
 texts = '../resources/texts/'

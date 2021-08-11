@@ -1,5 +1,6 @@
 body {
     font-family: Kaiti, sans-serif;
+    text-align: justify;
     background-image: url("../image/background.jpg");
     background-size: contain;
     background-position: center;
@@ -10,35 +11,42 @@ ul {
 }
 li {
     display: inline;
+    margin: 0 30px;
+    width: 100px;
 }
 a {
     color: white;
+    opacity: 0.7;
 }
 #nav {
+    margin: 0 auto;
     height: 30px;
     width: 100%;
-    text-align: center;
 }
 #header {
+    margin: 0 auto;
     color: white;
-    text-align:center;
-    padding:5px;
+    font-size: x-large;
+    padding:30px;
     height: 100px;
+    opacity: 0.7;
 }
 #section {
+    margin: 0 auto;
     color: white;
-    text-align: center;
-    margin: 0 25%;
     padding: 30px;
     font-size: 30px;
-    opacity: 0.5;
+    opacity: 0.7;
 }
 #footer {
-    text-align: center;
+    margin: 0 auto;
     font-style: italic;
     padding: 20px;
     color: white;
+    opacity: 0.7;
 }
-#jump {
-    text-align: center;
+p, h1, ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }

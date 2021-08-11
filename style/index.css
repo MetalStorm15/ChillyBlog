@@ -3,37 +3,45 @@ body {
     background-image: url("../image/background.jpg");
     background-size: contain;
     background-position: center;
-    background-repeat: repeat-y;
     background-attachment: fixed;
 }
 h2 {
     text-align: center;
+}
+ul {
+    list-style-type: none;
+}
+li {
+    display: inline;
+    margin: 0 30px;
 }
 a {
     color: white;
 }
 #nav {
     height: 30px;
-    width: 100%;
     text-align: center;
+    opacity: 0.7;
 }
 #header {
     color: white;
     text-align: center;
     padding:5px;
     height: 100px;
+    opacity: 0.7;
 }
 #section {
+    color: white;
     text-align: left;
     margin: 0 25%;
     padding: 30px;
     font-size: 30px;
-    opacity: 0.5;
-    background-color: gray;
+    opacity: 0.7;
 }
 #footer {
+    color: white;
     text-align: center;
     font-style: italic;
     padding: 20px;
-    color: white;
+    opacity: 0.7;
 }
