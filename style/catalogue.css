@@ -17,8 +17,10 @@ h1 {
 }
 .catalogue {
     text-align: left;
-    margin: 5% 40%;
-    position: center;
+    margin: 0 auto;
+    display: table;
+    justify-content: center;
+    align-items: center;
 }
 a {
     color: white;
