@@ -1,5 +1,4 @@
 # Poetry
-<link rel='stylesheet' type='text/css' href='../style/markdown.css'>
 
 + [似水流年（现代诗）](#似水流年现代诗)
 + [茫然](#茫然)
