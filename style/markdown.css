@@ -1,0 +1,8 @@
+body {
+    font-family: 'FZZhaoJiShouJinShuJF', '楷体';
+    background-image: url('../image/background.jpg');
+    opacity: 0.7;
+}
+p {
+    color: white;
+}
