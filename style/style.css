@@ -10,6 +10,10 @@ li {
     margin: 0 30px;
     width: 100px;
 }
+h1 {
+    color: white;
+    font-size: xx-large;
+}
 a {
     color: white;
     text-decoration: none;
