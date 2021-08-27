@@ -1,13 +1,9 @@
 body {
-    font-family: 'FZZhaoJiShouJinShuJF', 'KaiTi', sans-serif;
-    text-align: justify;
-    background-image: url("../image/background.jpg");
-    background-size: contain;
-    background-position: center;
-    background-attachment: fixed;
+    font-family: inherit;
 }
 ul {
     list-style-type: none;
+    margin: auto 24%;
 }
 li {
     display: inline;
@@ -16,37 +12,14 @@ li {
 }
 a {
     color: white;
-    opacity: 0.7;
+    text-decoration: none;
 }
-#nav {
-    margin: 0 auto;
-    height: 30px;
-    width: 100%;
-}
-#header {
-    margin: 0 auto;
-    color: white;
-    font-size: x-large;
-    padding:30px;
-    height: 100px;
-    opacity: 0.7;
-}
-#section {
+section {
     margin: 0 auto;
     color: white;
     padding: 30px;
-    font-size: 30px;
-    opacity: 0.7;
 }
-#footer {
-    margin: 0 auto;
-    font-style: italic;
-    padding: 20px;
+p {
     color: white;
-    opacity: 0.7;
-}
-p, h1, ul {
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    text-align: center;
 }

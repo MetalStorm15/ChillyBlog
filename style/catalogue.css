@@ -1,22 +1,14 @@
 body {
-    font-family: 'FZZhaoJiShouJinShuJF', 'KaiTi', sans-serif;
-    background-image: url("../image/background.jpg");
+    font-family: inherit;
     background-size: contain;
     background-position: center;
     background-attachment: fixed;
     color: white;
-    font-size: xx-large;
+    font-size: x-large;
 }
 h1 {
     margin: 100px;
     text-align: center;
-    opacity: 0.7;
-}
-#nav {
-    text-align: center;
-    margin: 100px auto;
-    height: 30px;
-    width: 100%;
 }
 .catalogue {
     text-align: left;
@@ -30,12 +22,10 @@ li {
 }
 a {
     color: white;
-    opacity: 0.7;
 }
 #footer {
     color: white;
     text-align: center;
     font-style: italic;
     padding: 20px;
-    opacity: 0.7;
 }
