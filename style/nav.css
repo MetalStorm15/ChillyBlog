@@ -1,7 +1,6 @@
 ul {
     list-style-type: none;
-    text-align: center;
-    margin: auto 8%;
+    margin: auto 12%;
 }
 li {
     display: inline;
@@ -21,20 +20,23 @@ body {
 }
 html body{
     height: 100%;
-    width: 100%;
+    width: 98%;
 }
 iframe {
-    width: 60%;
-    height: 500px;
+    width: 50%;
+    height: 480px;
     display: block;
     background-color: black;
-    margin: 0 18%;
+    margin-left: 25%;
     opacity: 0.7;
-
 }
 .nav2 {
+    padding: 10px;
     height: 15%;
-    margin-left: -8%;
-    margin-bottom: 3%;
-    margin-top: 2%;
+    margin-bottom: 10px;
+    opacity: 0.7;
+}
+footer {
+    text-align: center;
+    color: white;
 }
