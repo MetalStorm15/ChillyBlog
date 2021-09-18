@@ -1,7 +1,7 @@
 import os
 
 
-def make_sites(texts_dir, model_loc, output, catalogue):
+def make_sites(texts_dir, model_loc, output, contents_list):
     """
     texts_dir: the directory where the texts stored.
     model_loc: the location of the file containing the model for the sites showing the poetry.
@@ -35,9 +35,10 @@ def make_sites(texts_dir, model_loc, output, catalogue):
         # 制作诗词正文字符串
         for line in poem_body:
             if not line == '\n':
-                line = '\t' * 3 + '<p>' + line[:-1] + '</p>\n'
+                line = ' ' * 28 + '<p>' + line[:-1] + '</p>\n'
                 body += line
 
+        catalogue = '#catalogue'
         # 获取跳转所需的链接
         if poem == '0':
             previous_page = catalogue
@@ -58,7 +59,7 @@ def make_sites(texts_dir, model_loc, output, catalogue):
         model = model.replace('the body', body)
         model = model.replace('the previous', previous_page)
         model = model.replace('the next', next_page)
-        model = model.replace('the catalogue', catalogue)
+        model = model.replace('the contents', contents_list)
 
         # 写入内容
         with open(output + poem + '.html', 'w', encoding='utf-8') as file:
@@ -87,6 +88,7 @@ def make_catalogue(texts_dir, model_loc, catalogue):
     # 重新排序
     files.sort()
     contents_list = ''
+    contents_list_page = ''
 
     # 制作目录
     for file in files:
@@ -94,17 +96,18 @@ def make_catalogue(texts_dir, model_loc, catalogue):
             name = f.read()
             name = name.replace('\n', '')
 
-        contents_list += '\t' * 3 + '<li><a href="./{0}.html">{1}</a></li>\n'.format(str(file), name)
-
+        contents_list += ' ' * 32 + '<li><a href="./pages/{0}.html">{1}</a></li>\n'.format(str(file), name)
+        contents_list_page += ' ' * 32 + '<li><a href="./{0}.html">{1}</a></li>\n'.format(str(file), name)
     # 读取模板
     with open(model_loc, encoding='utf-8') as f:
         model = f.read()
 
     # 写入填充后的模板
     with open(catalogue, mode='w', encoding='utf-8') as f:
-        model = model.replace('the catalogue to be replaced', contents_list)
+        model = model.replace('the contents', contents_list)
         f.write(model)
 
+    return contents_list_page
 
 def make_md(texts_dir, output='../Poetry.md'):
     """
@@ -186,8 +189,8 @@ def make(texts_dir: str, model_1: str, model_2: str, output: str, catalogue: str
     This is a function to build websites files for poetry.
     """
     # 制作目录文件
-    make_catalogue(texts_dir, model_2, catalogue)
+    contents_list = make_catalogue(texts_dir, model_2, catalogue)
     # 制作网页文件
-    make_sites(texts_dir, model_1, output, catalogue)
+    make_sites(texts_dir, model_1, output, contents_list)
     # 制作Markdown文件
     make_md(texts_dir, md_file)

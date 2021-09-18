@@ -17,5 +17,5 @@ texts = '../resources/texts/'
 model_sites = '../resources/models/model-page.html'
 model_catalogue = '../resources/models/model-catalogue.html'
 output_dir = '../pages/'
-catalogue_file = '../pages/catalogue.html'
+catalogue_file = '../index.html'
 make(texts, model_sites, model_catalogue, output_dir, catalogue_file)

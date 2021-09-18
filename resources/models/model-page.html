@@ -9,39 +9,76 @@
         <title>支离-Chilly 的个人博客</title>
         <meta charset="utf-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
-        <link rel="stylesheet" type="text/css" href="../style/style.css">
+        <link rel="stylesheet" href="../assets/css/main.css" />
+        <noscript><link rel="stylesheet" href="../assets/css/noscript.css" /></noscript>
     </head>
     <body class="is-preload">
-        <h1>the title</h3>
-        <div class='jump'>
-            <ul>
-                <li><a class='button' href="the previous">上一首</a></li>
-                <li><a class='button' href="the catalogue">目录</a></li>
-                <li><a class='button' href="the next">下一首</a></li>
-            </ul>
-        </div>
-        <section>
+
+        <!-- Wrapper -->
+            <div id="wrapper">
+                <!--Header-->
+                    <header id='header'>
+                        <div class="logo">
+							<span class="icon fa-gem"></span>
+						</div>
+                        <div class="content">
+							<div class="inner">
+								<h1>the title</h1>
+								<p>支离</p>
+                                
+							</div>
+						</div>
+                        <nav>
+                            <ul>
+                                <li><a class='button' href="../index.html">首页</a></li>
+                                <li><a class='button' href="the previous">上一首</a></li>
+                                <li><a class='button' href="#catalogue">目录</a></li>
+                                <li><a class='button' href="the next">下一首</a></li>
+                            </ul>
+                        </nav>
+
+                        <section>
 the body
-        </section>
-        <div class='jump'>
-            <ul>
-                <li><a class='button' href="the previous">上一首</a></li>
-                <li><a class='button' href="the catalogue">目录</a></li>
-                <li><a class='button' href="the next">下一首</a></li>
-            </ul>
-        </div>
-           
-        <script lang="javascript" type='text/javascript'>
-            function jump(e) {
-                if (e.which === 37) {
-                    window.location.href = "the previous";
-                }else if (e.which === 39) {
-                    window.location.href = "the next";
-                }else if (e.which === 13) {
-                    window.location.href = "the catalogue";
+                        </section>
+                    </header>
+                <!-- Main -->
+                    <div id="main">
+                    <!-- 目录 -->
+                        <article id='catalogue'>
+                            <h2 class='major'>目录</h2>
+                            <section>
+the contents
+                            </section>
+                        </article>
+
+                    </div>
+                <!-- Footer -->
+                    <footer id="footer">
+                        <p class="copyright">copyright: &copy; 2021 支离-Chilly.</p>
+                    </footer>
+                    
+            </div>
+
+        <!-- BG -->
+            <div id="bg"></div>
+
+        <!-- Scripts -->
+            <script src="../assets/js/jquery.min.js"></script>
+            <script src="../assets/js/browser.min.js"></script>
+            <script src="../assets/js/breakpoints.min.js"></script>
+            <script src="../assets/js/util.js"></script>
+            <script src="../assets/js/main.js"></script>
+            <script lang="javascript" type='text/javascript'>
+                function jump(e) {
+                    if (e.which === 37) {
+                        window.location.href = "the previous";
+                    }else if (e.which === 39) {
+                        window.location.href = "the next";
+                    }else if (e.which === 13) {
+                        window.location.href = "the catalogue";
+                    }
                 }
-            }
-            document.onkeydown = jump;
-        </script>
+                document.onkeydown = jump;
+            </script>
     </body>
 </html>
