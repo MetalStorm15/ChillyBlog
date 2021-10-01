@@ -71,6 +71,9 @@
 快乐是那么短暂。
 </div>
 <div class="text">
+<br>
+</div>
+<div class="text">
 是谁偷走了我的时间？
 </div>
 <div class="text">
@@ -112,6 +115,9 @@
 奋尽全力却停滞不前？
 </div>
 <div class="text">
+<br>
+</div>
+<div class="text">
 是谁搅乱了我的心田，
 </div>
 <div class="text">
@@ -119,6 +125,9 @@
 </div>
 <div class="text">
 努力摆脱却总不得愿？
+</div>
+<div class="text">
+<br>
 </div>
 <div class="text">
 是谁种下了我的执念，
@@ -145,10 +154,7 @@
 落得一池萍碎，
 </div>
 <div class="text">
-随流水，
-</div>
-<div class="text">
-逝去不复回。
+随流水，逝去不复回。
 </div>
 
 -----
@@ -156,40 +162,22 @@
 <h2>似水流年（古诗）</h1>
 
 <div class="text">
-仰望繁星缀满天，
+仰望繁星缀满天，时光荏苒不胜叹。
 </div>
 <div class="text">
-时光荏苒不胜叹。
+往日龌龊眼前现，惊觉苦多乐亦难。
 </div>
 <div class="text">
-往日龌龊眼前现，
+时间安得似人窃？留恋无暇箭离弦。
 </div>
 <div class="text">
-惊觉苦多乐亦难。
+万般流连繁华间，愿并吾身俱相献。
 </div>
 <div class="text">
-时间安得似人窃？
+可怜华发似霜雪，颓然把酒问青天。
 </div>
 <div class="text">
-留恋无暇箭离弦。
-</div>
-<div class="text">
-万般流连繁华间，
-</div>
-<div class="text">
-愿并吾身俱相献。
-</div>
-<div class="text">
-可怜华发似霜雪，
-</div>
-<div class="text">
-颓然把酒问青天。
-</div>
-<div class="text">
-最是无情为何物？
-</div>
-<div class="text">
-似水流年当冠冕。
+最是无情为何物？似水流年当冠冕。
 </div>
 
 -----
@@ -206,10 +194,10 @@
 我欲像大鹏直上九万里，
 </div>
 <div class="text">
-绝云气，负青天，
+绝云气，负青天，然后图南。
 </div>
 <div class="text">
-然后图南。
+<br>
 </div>
 <div class="text">
 却无希有鸟相伴，
@@ -219,6 +207,9 @@
 </div>
 <div class="text">
 竟在尺鷃的讥笑中沉湎。
+</div>
+<div class="text">
+<br>
 </div>
 <div class="text">
 或许我不该肖想，
@@ -250,10 +241,13 @@
 抚不平心中的迷乱。
 </div>
 <div class="text">
+<br>
+</div>
+<div class="text">
 我站在岔路上，
 </div>
 <div class="text">
-迷雾笼罩着前方，
+迷雾笼罩着前方。
 </div>
 <div class="text">
 陷入了久久的彷徨，
@@ -286,10 +280,13 @@
 逍遥又旷荡？
 </div>
 <div class="text">
+<br>
+</div>
+<div class="text">
 而我身受桎梏，
 </div>
 <div class="text">
-只能对你的自由心生羡慕，
+只能对你的自由心生羡慕。
 </div>
 <div class="text">
 承受天的刑罚，
@@ -313,10 +310,13 @@
 便是县解的方法。
 </div>
 <div class="text">
+<br>
+</div>
+<div class="text">
 可又不甘被限制，
 </div>
 <div class="text">
-向往广阔的天地，
+向往广阔的天地。
 </div>
 <div class="text">
 想要突破面前的屏障，
@@ -331,7 +331,7 @@
 谁来为我指点迷津，
 </div>
 <div class="text">
-带给我指引，
+带给我指引？
 </div>
 <div class="text">
 助我照亮眼前的黑暗，
@@ -341,6 +341,9 @@
 </div>
 <div class="text">
 驱散对未知的恐惧？
+</div>
+<div class="text">
+<br>
 </div>
 <div class="text">
 终究没有人
@@ -370,6 +373,9 @@
 留下专属我的车辙。
 </div>
 <div class="text">
+<br>
+</div>
+<div class="text">
 抹去心中的担忧，
 </div>
 <div class="text">
@@ -382,6 +388,9 @@
 走向我的归居。
 </div>
 <div class="text">
+<br>
+</div>
+<div class="text">
 跟随命运的车轮，
 </div>
 <div class="text">
@@ -392,6 +401,9 @@
 </div>
 <div class="text">
 将过去遗忘。
+</div>
+<div class="text">
+<br>
 </div>
 <div class="text">
 接受眼前的现实，
@@ -444,6 +456,9 @@
 无边的惆怅？
 </div>
 <div class="text">
+<br>
+</div>
+<div class="text">
 我只能独自哭泣，
 </div>
 <div class="text">
@@ -480,13 +495,13 @@
 或许有人能看破面具，
 </div>
 <div class="text">
-直达我内心的空虚，
+直达我内心的空虚。
 </div>
 <div class="text">
 向我尘封的心里，
 </div>
 <div class="text">
-注入软弱的勇气，
+注入软弱的勇气。
 </div>
 <div class="text">
 给予无处宣泄的悲伤，
@@ -542,13 +557,16 @@
 利刃闪烁寒芒。
 </div>
 <div class="text">
-我的心一片冰凉，
+我的心一片冰凉。
 </div>
 <div class="text">
 浓郁的化不开的悲伤，
 </div>
 <div class="text">
 填充着我的心房。
+</div>
+<div class="text">
+<br>
 </div>
 <div class="text">
 依靠着坚固的屏障，
@@ -568,16 +586,10 @@
 <h2>志残</h1>
 
 <div class="text">
-清溪映吾影，
+清溪映吾影，斑白如霜华。
 </div>
 <div class="text">
-斑白如霜华。
-</div>
-<div class="text">
-迟暮如残烛，
-</div>
-<div class="text">
-也曾志无涯。
+迟暮如残烛，也曾志无涯。
 </div>
 
 -----
@@ -597,10 +609,7 @@
 无暇说出那句再见，已似箭离弦。
 </div>
 <div class="text">
-回忆往昔间，
-</div>
-<div class="text">
-苦多乐亦难，
+回忆往昔间，苦多乐亦难，
 </div>
 <div class="text">
 转眼沧海桑田。
@@ -625,6 +634,9 @@
 </div>
 <div class="text">
 终身役役不知何处终点。
+</div>
+<div class="text">
+<br>
 </div>
 <div class="text">
 看那漫天飞舞离人泪花，
@@ -663,10 +675,7 @@
 未若兹鹏逍遥旷荡，无厥类比方。
 </div>
 <div class="text">
-深渊中徜徉，
-</div>
-<div class="text">
-扶摇天汉上，
+深渊中徜徉，扶摇天汉上，
 </div>
 <div class="text">
 遨游自得之场。
@@ -691,6 +700,9 @@
 </div>
 <div class="text">
 受天之刑，身心备受熬煎。
+</div>
+<div class="text">
+<br>
 </div>
 <div class="text">
 谁能解我执念免我刑罚，
@@ -732,6 +744,9 @@
 万事浮华，兴亡只在刹那。
 </div>
 <div class="text">
+<br>
+</div>
+<div class="text">
 我愿饮酒一觞不负韶华，
 </div>
 <div class="text">
@@ -770,6 +785,9 @@
 提不起一丝力气。
 </div>
 <div class="text">
+<br>
+</div>
+<div class="text">
 我只想停止，
 </div>
 <div class="text">
@@ -785,6 +803,9 @@
 跑向目的地。
 </div>
 <div class="text">
+<br>
+</div>
+<div class="text">
 尽管它是那么遥不可及，
 </div>
 <div class="text">
@@ -797,10 +818,13 @@
 承受不起持续奔跑的压力。
 </div>
 <div class="text">
-我想要不顾及中考体育的成绩，
+<br>
 </div>
 <div class="text">
-但又无法忽视老师的凝视。
+我想要不顾及最终的成绩，
+</div>
+<div class="text">
+但又无法忽视那道道凝视。
 </div>
 <div class="text">
 只得不顾身心俱疲，
@@ -821,6 +845,9 @@
 </div>
 <div class="text">
 仰视不见的微明。
+</div>
+<div class="text">
+<br>
 </div>
 <div class="text">
 我是那么晦暗,
@@ -850,7 +877,10 @@
 是否被人注意。
 </div>
 <div class="text">
-兢兢业业守着我的位置，
+兢兢业业守着我的位置。
+</div>
+<div class="text">
+<br>
 </div>
 <div class="text">
 但千万个这样的我，
@@ -871,10 +901,13 @@
 让晚间的行人不再索寞。
 </div>
 <div class="text">
+<br>
+</div>
+<div class="text">
 我的光虽然微弱，
 </div>
 <div class="text">
-依然竭尽全力去闪烁。
+依然不遗余力去闪烁。
 </div>
 
 -----
@@ -882,16 +915,13 @@
 <h2>囹圄</h1>
 
 <div class="text">
-似乎有无形的绳索，
+似乎有无形的绳索，捆缚着我，
 </div>
 <div class="text">
-捆缚着我，
+想要挣脱，却徒劳无获。
 </div>
 <div class="text">
-想要挣脱，
-</div>
-<div class="text">
-却徒劳无获。
+<br>
 </div>
 <div class="text">
 那近在咫尺的边界，
@@ -976,16 +1006,13 @@
 <h2>追逐黑暗</h1>
 
 <div class="text">
-无尽的深渊，
+无尽的深渊，永恒的黑暗，
 </div>
 <div class="text">
-永恒的黑暗，
+光明的彼岸，无比的遥远。
 </div>
 <div class="text">
-光明的彼岸，
-</div>
-<div class="text">
-无比的遥远。
+<br>
 </div>
 <div class="text">
 阴沟里的臭虫，
@@ -1024,6 +1051,9 @@
 能带来的只有失望。
 </div>
 <div class="text">
+<br>
+</div>
+<div class="text">
 而我只能与孤独为伴，
 </div>
 <div class="text">
@@ -1052,6 +1082,9 @@
 </div>
 <div class="text">
 只有冰冷才能长久。
+</div>
+<div class="text">
+<br>
 </div>
 <div class="text">
 追逐着光，
@@ -1087,6 +1120,9 @@
 摧毁我内心的防线。
 </div>
 <div class="text">
+<br>
+</div>
+<div class="text">
 阳光多么刺眼，
 </div>
 <div class="text">
@@ -1096,16 +1132,13 @@
 给我梦寐以求的阴暗。
 </div>
 <div class="text">
-旷野无垠，
+<br>
 </div>
 <div class="text">
-我却找不到与我同游的人。
+旷野无垠，却无人与我同游。
 </div>
 <div class="text">
-天地寥廓，
-</div>
-<div class="text">
-我却找不到与我共赏的人。
+天地寥廓，却无人与我共赏。
 </div>
 <div class="text">
 <br>
@@ -1117,16 +1150,16 @@
 竟生出了一丝慕艳。
 </div>
 <div class="text">
-我义无反顾，
-</div>
-<div class="text">
-投向无尽深渊，
+我义无反顾，投向无尽深渊，
 </div>
 <div class="text">
 找寻我遗留的答案，
 </div>
 <div class="text">
 追逐我逝去的执念。
+</div>
+<div class="text">
+<br>
 </div>
 <div class="text">
 带着她共逐流光，
@@ -1182,6 +1215,9 @@
 飞掠在广阔的天地。
 </div>
 <div class="text">
+<br>
+</div>
+<div class="text">
 不管我愿不愿意，
 </div>
 <div class="text">
@@ -1198,6 +1234,9 @@
 </div>
 <div class="text">
 只需放任自己。
+</div>
+<div class="text">
+<br>
 </div>
 <div class="text">
 满天的沙砾，
@@ -1223,16 +1262,10 @@
 <h2>万古长流</h1>
 
 <div class="text">
-大江滔滔起波澜，
+大江滔滔起波澜，万古长流不知源。
 </div>
 <div class="text">
-万古长流不知源。
-</div>
-<div class="text">
-古来迹痕无处寻，
-</div>
-<div class="text">
-何故措情激漪涟。
+古来迹痕无处寻，何故措情激漪涟。
 </div>
 
 -----
@@ -1297,10 +1330,13 @@
 光明只会刺痛我的双眼。
 </div>
 <div class="text">
+<br>
+</div>
+<div class="text">
 只有黑暗才能使我平静，
 </div>
 <div class="text">
-只有绝望才能使我看清。
+只有绝望才能使我清醒。
 </div>
 <div class="text">
 我也将永远待在这里，
@@ -1341,16 +1377,19 @@
 却什么也挽回不了。
 </div>
 <div class="text">
+<br>
+</div>
+<div class="text">
 虽然棱角不再锋利，
 </div>
 <div class="text">
-再不会伤害娇嫩的花草，
+再不会伤害娇嫩的花草。
 </div>
 <div class="text">
 可早已走到路的叫尽头，
 </div>
 <div class="text">
-只能看着他们脸上重现的欢笑，
+只能看着他们脸上重现的欢笑，。
 </div>
 <div class="text">
 想要表达歉意，乞求原谅，
@@ -1372,6 +1411,9 @@
 </div>
 <div class="text">
 再次出现在他们眼前？
+</div>
+<div class="text">
+<br>
 </div>
 <div class="text">
 最好的结局，
@@ -1403,6 +1445,9 @@
 不值得去慕艳，
 </div>
 <div class="text">
+<br>
+</div>
+<div class="text">
 时光长河不可追溯，
 </div>
 <div class="text">
@@ -1415,6 +1460,9 @@
 才是最好的归宿。
 </div>
 <div class="text">
+<br>
+</div>
+<div class="text">
 岁岁枯荣的桃李，
 </div>
 <div class="text">
@@ -1424,7 +1472,10 @@
 单调平淡的长久，
 </div>
 <div class="text">
-不如刹那的璀璨，
+不如刹那的璀璨。
+</div>
+<div class="text">
+<br>
 </div>
 <div class="text">
 时光易逝不可停止，
@@ -1453,6 +1504,9 @@
 诞自虚无，复归寥落。
 </div>
 <div class="text">
+<br>
+</div>
+<div class="text">
 看经久不衰，历久不移，
 </div>
 <div class="text">
@@ -1460,6 +1514,9 @@
 </div>
 <div class="text">
 不得永恒，莫不安息。
+</div>
+<div class="text">
+<br>
 </div>
 <div class="text">
 漫长与短暂，
@@ -1479,13 +1536,16 @@
 我若为那雷电，
 </div>
 <div class="text">
-便教这世间感受我的耀眼，
+便教这世间感受我的耀眼。
+</div>
+<div class="text">
+<br>
 </div>
 <div class="text">
 纵使强大如天，
 </div>
 <div class="text">
-亦不得久远，
+亦不得久远。
 </div>
 <div class="text">
 如此我便用这瞬间，
@@ -1497,10 +1557,13 @@
 让所有人震颤。
 </div>
 <div class="text">
+<br>
+</div>
+<div class="text">
 或终消散如烟，
 </div>
 <div class="text">
-复归平坦，
+复归平坦，。
 </div>
 <div class="text">
 心中亦无怨言，
@@ -1527,6 +1590,9 @@
 </div>
 <div class="text">
 他再次出现。
+</div>
+<div class="text">
+<br>
 </div>
 <div class="text">
 我多么害怕，
@@ -1557,6 +1623,9 @@
 </div>
 <div class="text">
 点亮希望。
+</div>
+<div class="text">
+<br>
 </div>
 <div class="text">
 我却又担心晚上，
@@ -1631,6 +1700,9 @@
 有朝一日可以踏上。
 </div>
 <div class="text">
+<br>
+</div>
+<div class="text">
 在那里，我终于不用迷茫，
 </div>
 <div class="text">
@@ -1641,6 +1713,9 @@
 </div>
 <div class="text">
 尽情的拥抱没有悬念的暖阳。
+</div>
+<div class="text">
+<br>
 </div>
 <div class="text">
 我们开始了远航，
@@ -1654,16 +1729,10 @@
 <h2>笑</h1>
 
 <div class="text">
-世人皆笑我不争，
+世人皆笑我不争，我笑世人鲜矣明，
 </div>
 <div class="text">
-我笑世人鲜矣明，
-</div>
-<div class="text">
-安时处顺心若水，
-</div>
-<div class="text">
-尺燕亦可笑大鹏。
+安时处顺心若水，尺燕亦可笑大鹏。
 </div>
 
 -----
@@ -1671,16 +1740,10 @@
 <h2>赠友人</h1>
 
 <div class="text">
-列缺霹雳须臾间，
+列缺霹雳须臾间，惮赫千里耀青天。
 </div>
 <div class="text">
-惮赫千里耀青天。
-</div>
-<div class="text">
-鲲游北冥深万仞，
-</div>
-<div class="text">
-一招展翅浪三千。
+鲲游北冥深万仞，一招展翅浪三千。
 </div>
 
 -----
@@ -1688,16 +1751,10 @@
 <h2>不群</h1>
 
 <div class="text">
-晨登高山入青云，
+晨登高山入青云，直抵阊阖观芸芸。
 </div>
 <div class="text">
-直抵阊阖观芸芸。
-</div>
-<div class="text">
-昔时高远不足称，
-</div>
-<div class="text">
-只因与世以不群。
+昔时高远不足称，只因与世以不群。
 </div>
 
 -----
@@ -1705,16 +1762,10 @@
 <h2>斑斓</h1>
 
 <div class="text">
-芸芸群生熙熙攘，
+芸芸群生熙熙攘，千殊万异未同向。
 </div>
 <div class="text">
-千殊万异未同向。
-</div>
-<div class="text">
-五彩斑斓为本色，
-</div>
-<div class="text">
-逍遥自得游泱漭。
+五彩斑斓为本色，逍遥自得游泱漭。
 </div>
 
 -----
@@ -1747,6 +1798,9 @@
 </div>
 <div class="text">
 拨动了我心弦。
+</div>
+<div class="text">
+<br>
 </div>
 <div class="text">
 看他们志存高远，
@@ -1788,7 +1842,10 @@
 不停地奔走寻觅，
 </div>
 <div class="text">
-直至到那彼岸花开之地，
+直至到那彼岸花开之地。
+</div>
+<div class="text">
+<br>
 </div>
 <div class="text">
 未常驻足，欣赏沿途，
@@ -1814,22 +1871,13 @@
 记不清曾多少次仰望，
 </div>
 <div class="text">
-无数日夜难以悲伤，
+无数日夜难以悲伤，举头诉愁肠，
 </div>
 <div class="text">
-举头诉愁肠，
+沧海桑田满目凄凉，非昔日景象。
 </div>
 <div class="text">
-沧海桑田满目凄凉，
-</div>
-<div class="text">
-非昔日景象。
-</div>
-<div class="text">
-寥廓苍穹上，
-</div>
-<div class="text">
-点点的星光，
+寥廓苍穹上，点点的星光，
 </div>
 <div class="text">
 走过时间长廊。
@@ -1889,22 +1937,13 @@
 如今还有多少能再见，
 </div>
 <div class="text">
-不知什么时候开始，
+不知什么时候开始，都渐行渐远，
 </div>
 <div class="text">
-都渐行渐远，
+天各一方偶然想起，一笑而过见，
 </div>
 <div class="text">
-天各一方偶然想起，
-</div>
-<div class="text">
-一笑而过见，
-</div>
-<div class="text">
-才恍然发现，
-</div>
-<div class="text">
-走了那么远，
+才恍然发现，走了那么远，
 </div>
 <div class="text">
 再回不到从前。
@@ -2002,22 +2041,7 @@
 <h2>如梦令</h1>
 
 <div class="text">
-星辰点缀廖阔，
-</div>
-<div class="text">
-举头曾望几所。
-</div>
-<div class="text">
-离合已数数，
-</div>
-<div class="text">
-未见天明堕落。
-</div>
-<div class="text">
-人殁，人殁，
-</div>
-<div class="text">
-唯剩河汉烁烁。
+星辰点缀廖阔，举头曾望几所。离合已数数，未见天明堕落。人殁，人殁，唯剩河汉烁烁。
 </div>
 
 -----
@@ -2049,7 +2073,10 @@
 明明对自由渴望，
 </div>
 <div class="text">
-明明对飞鸟羡慕，
+明明对飞鸟羡慕。
+</div>
+<div class="text">
+<br>
 </div>
 <div class="text">
 可对未知的迷惘，
@@ -2128,7 +2155,7 @@
 潘多拉的魔盒，
 </div>
 <div class="text">
-打开了便无法再闭合，
+打开了便无法再闭合。
 </div>
 <div class="text">
 我多想能心平气和，
@@ -2161,13 +2188,16 @@
 我背着千钧重担，
 </div>
 <div class="text">
-装满了我最珍视的东西，
+装满了我最珍视的东西。
 </div>
 <div class="text">
 哪怕我筋疲力竭，
 </div>
 <div class="text">
 也一件都不舍丢弃。
+</div>
+<div class="text">
+<br>
 </div>
 <div class="text">
 可我有的时候也会疑惑，
@@ -2218,6 +2248,9 @@
 </div>
 <div class="text">
 压得我喘不过气。
+</div>
+<div class="text">
+<br>
 </div>
 <div class="text">
 他们总说要我争气，
@@ -2417,6 +2450,9 @@
 因为我拥有现在。
 </div>
 <div class="text">
+<br>
+</div>
+<div class="text">
 我想知道在未来，
 </div>
 <div class="text">
@@ -2544,16 +2580,19 @@
 都仿佛心脏被揉捻。
 </div>
 <div class="text">
+<br>
+</div>
+<div class="text">
 我每次想要将她忘却，
 </div>
 <div class="text">
-可又总是想起那一瞥，
+可又总是想起那一瞥。
 </div>
 <div class="text">
 或许当时我走的决绝，
 </div>
 <div class="text">
-我就不必如此的伤别，
+我就不必如此的伤别。
 </div>
 <div class="text">
 或许当时不依依惜别，
@@ -2568,7 +2607,7 @@
 一张照片连通时间，
 </div>
 <div class="text">
-时刻提醒我曾相见，
+时刻提醒我曾相见。
 </div>
 <div class="text">
 勾起我心底的思念，
@@ -2577,10 +2616,13 @@
 不知不觉泪流满面。
 </div>
 <div class="text">
+<br>
+</div>
+<div class="text">
 我亲手尘封了所有的回忆，
 </div>
 <div class="text">
-把他们淹没在时间长河里，
+把他们淹没在时间长河里。
 </div>
 <div class="text">
 照片也都被一张张收起，
@@ -2931,6 +2973,9 @@
 将红尘俗世了却静心田。
 </div>
 <div class="text">
+<br>
+</div>
+<div class="text">
 对自由贪恋，扯碎无形锁链，
 </div>
 <div class="text">
@@ -2949,6 +2994,9 @@
 </div>
 <div class="text">
 此地一别南与北，渐行渐远东与西，咫尺天涯难相及。
+</div>
+<div class="text">
+<br>
 </div>
 <div class="text">
 如今相伴复几时，孤蓬远征无归路。
@@ -3007,6 +3055,9 @@
 我再去追忆。
 </div>
 <div class="text">
+<br>
+</div>
+<div class="text">
 善变的世界未曾停息，
 </div>
 <div class="text">
@@ -3031,7 +3082,7 @@
 将回忆中的美好忘却，
 </div>
 <div class="text">
-让照片在烈火中光泯灭，
+让照片在烈火中泯灭。
 </div>
 <div class="text">
 如今便不必如此伤别，
@@ -3052,7 +3103,7 @@
 思念与伤感无处宣泄，
 </div>
 <div class="text">
-独坐在月光下寒风呜咽。
+独坐在月光下听寒风呜咽。
 </div>
 <div class="text">
 <br>
@@ -3061,7 +3112,7 @@
 或许有一天我能笑谈别离，
 </div>
 <div class="text">
-将尘封的回忆一点点拾起，
+将尘封的回忆一点点拾起。
 </div>
 <div class="text">
 一张张照片跨过时间，
@@ -3081,10 +3132,7 @@
 <h2>时光如箭</h1>
 
 <div class="text">
-时光如箭，
-</div>
-<div class="text">
-一晃三年，
+时光如箭，一晃三年，
 </div>
 <div class="text">
 曾经的不耐烦，
@@ -3113,13 +3161,17 @@
 不见脚下深渊万丈。
 </div>
 <div class="text">
+<br>
+</div>
+<div class="text">
 那里没有光亮，
 </div>
 <div class="text">
 有的只会是绝望，
 </div>
 <div class="text">
-甚至没有资格仰望。</div>
+甚至没有资格仰望。
+</div>
 
 -----
 

@@ -87,8 +87,8 @@ def make_catalogue(texts_dir, model_loc, catalogue):
 
     # 重新排序
     files.sort()
-    contents_list = ''
-    contents_list_page = ''
+    contents_list = '<ol>'
+    contents_list_page = '<ol>'
 
     # 制作目录
     for file in files:
@@ -98,6 +98,8 @@ def make_catalogue(texts_dir, model_loc, catalogue):
 
         contents_list += ' ' * 32 + '<li><a href="./pages/{0}.html">{1}</a></li>\n'.format(str(file), name)
         contents_list_page += ' ' * 32 + '<li><a href="./{0}.html">{1}</a></li>\n'.format(str(file), name)
+    contents_list += '</ol<>'
+    contents_list_page += '</ol>'
     # 读取模板
     with open(model_loc, encoding='utf-8') as f:
         model = f.read()
