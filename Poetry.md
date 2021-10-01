@@ -206,7 +206,7 @@
 羽翼也不可垂天，
 </div>
 <div class="text">
-竟在尺鷃的讥笑中沉湎。
+竟在尺燕的讥笑中沉湎。
 </div>
 <div class="text">
 <br>
@@ -477,7 +477,7 @@
 冰冷的躯体，
 </div>
 <div class="text">
-裹着的心也早已沉寂。
+心也早已沉寂。
 </div>
 <div class="text">
 我终于学会了坚强，
@@ -642,7 +642,7 @@
 看那漫天飞舞离人泪花，
 </div>
 <div class="text">
-无情有思，傍路拋家。
+无情有思，傍路抛家。
 </div>
 <div class="text">
 似花非花，随风飘洒，遍地萧杀。
@@ -669,7 +669,7 @@
 翼举长云邈彼北之荒
 </div>
 <div class="text">
-精卫衔木，鶢鶋荐觞，何拘挛守常，
+精卫衔木，爰居荐觞，何拘挛守常，
 </div>
 <div class="text">
 未若兹鹏逍遥旷荡，无厥类比方。
@@ -1248,6 +1248,9 @@
 哪需在乎最后会落在那里。
 </div>
 <div class="text">
+<br>
+</div>
+<div class="text">
 怎能认为，
 </div>
 <div class="text">
@@ -1563,7 +1566,7 @@
 或终消散如烟，
 </div>
 <div class="text">
-复归平坦，。
+复归平坦，
 </div>
 <div class="text">
 心中亦无怨言，
