@@ -139,6 +139,7 @@ def make_md(texts_dir, output='../Poetry.md'):
     with open(output, 'w', encoding='utf-8') as f:
         # 写入大标题
         f.write('# Poetry\n\n')
+        f.write('<script>\n    .text {text-align: center;}\n</script>\n\n')
         # 写入目录
         for poem in poems:
             # 读取诗名
@@ -161,7 +162,7 @@ def make_md(texts_dir, output='../Poetry.md'):
                 poem_name = file.read()
 
             # 写入诗名
-            f.write('## {0} \n\n'.format(poem_name))
+            f.write('<h2>{0}</h1>\n\n'.format(poem_name))
 
             # 读取诗正文
             with open(texts_dir + poem + '/body.txt', encoding='utf-8') as file:
@@ -169,7 +170,7 @@ def make_md(texts_dir, output='../Poetry.md'):
 
             # 写入诗正文
             for line in poem_body:
-                f.write('{0}\n'.format(line))
+                f.write('<div class="text">\n{0}</div>\n'.format(line))
 
             # 写入分隔符
             f.write('\n-----\n\n')
