@@ -48,6 +48,15 @@
 + [半山腰上](#半山腰上)
 + [长信（其二）](#长信其二)
 + [入局](#入局)
++ [低头
+](#低头
+)
++ [孤星
+](#孤星
+)
++ [无声歌
+](#无声歌
+)
 
 <h2 style="text-align: center;">似水流年（现代诗）</h1>
 
@@ -1358,7 +1367,7 @@
 将沿路的一切穿凿，
 </div>
 <div style="text-align: center;">
-终于磨了所有的棱角。
+终于磨平了所有棱角。
 </div>
 <div style="text-align: center;">
 <br>
@@ -1633,7 +1642,7 @@
 他会不会将离去遗忘，
 </div>
 <div style="text-align: center;">
-依旧不遗余力的释放，
+依旧不遗余力的释放。
 </div>
 <div style="text-align: center;">
 燃尽的希望，
@@ -1912,7 +1921,7 @@
 穷经皓首未见终点，
 </div>
 <div style="text-align: center;">
-疲役苶然，身心俱残，难平执念。
+疲役苶然，步履维艰，难平执念。
 </div>
 <div style="text-align: center;">
 晨临河强渡无畏浪湍，
@@ -1999,10 +2008,10 @@
 悠然穿过彼岸花间，
 </div>
 <div style="text-align: center;">
-忘川河畔，三生石边，回忆从前。
+忘川河畔，三生石边，回望从前。
 </div>
 <div style="text-align: center;">
-曾气吞山河傲骨凛然，
+曾义无反顾傲骨凛然，
 </div>
 <div style="text-align: center;">
 也曾逃避懦弱不堪，
@@ -2032,7 +2041,7 @@
 浮生若梦，何故措情其间，
 </div>
 <div style="text-align: center;">
-引觞酌罢，愿来生再干。
+一饮而尽，愿来生再干。
 </div>
 
 -----
@@ -2057,7 +2066,7 @@
 栅栏挡在前方，
 </div>
 <div style="text-align: center;">
-虽低矮，却能把我拦住。
+虽低矮，却能将我拦住。
 </div>
 <div style="text-align: center;">
 <br>
@@ -2101,22 +2110,22 @@
 卖弄书中的圣言，
 </div>
 <div style="text-align: center;">
-以为我有资格指点江山，
+以为有资格指点江山，
 </div>
 <div style="text-align: center;">
-其实理解得很片面。
+其实理解得多么片面。
 </div>
 <div style="text-align: center;">
-看着别人对我狂笑，
+看别人对我狂笑，
 </div>
 <div style="text-align: center;">
-打心眼里觉得鄙陋，
+心里觉得鄙陋，
 </div>
 <div style="text-align: center;">
 到最后才发现，
 </div>
 <div style="text-align: center;">
-我才是那个小丑。
+我竟是那个小丑。
 </div>
 <div style="text-align: center;">
 <br>
@@ -2220,7 +2229,7 @@
 已经有答案在心底，
 </div>
 <div style="text-align: center;">
-抬头眺望东方，
+抬头撇到东方
 </div>
 <div style="text-align: center;">
 白日正缓缓升起。
@@ -2478,7 +2487,7 @@
 还是说我其实在流浪，
 </div>
 <div style="text-align: center;">
-那个被成为家的地方，
+那个被称为家的地方，
 </div>
 <div style="text-align: center;">
 不过是临时歇脚的房。
@@ -2526,13 +2535,13 @@
 我是否抛下了太多，
 </div>
 <div style="text-align: center;">
-造成现在一无所有的落魄，
+造成如今一无所有的落魄，
 </div>
 <div style="text-align: center;">
 我是否也曾经拥有，
 </div>
 <div style="text-align: center;">
-无忧无虑平平淡淡的生活。
+平平淡淡无忧无虑的生活。
 </div>
 
 -----
@@ -2623,16 +2632,16 @@
 <h2 style="text-align: center;">踏山河-韩信</h1>
 
 <div style="text-align: center;">
-不营商贾贫无行，遂常寄人篱下，
+不营商贾贫无行，故常寄人篱下，
 </div>
 <div style="text-align: center;">
-经久遭嫌一怒仗剑走天涯。
+经久遭嫌怒去仗剑走天涯。
 </div>
 <div style="text-align: center;">
 河畔垂钓无鱼起，饱尝饥饿困乏，
 </div>
 <div style="text-align: center;">
-老母予食遂许之千金重答。
+老母予食许之千金以相答。
 </div>
 <div style="text-align: center;">
 <br>
@@ -2948,7 +2957,7 @@
 <br>
 </div>
 <div style="text-align: center;">
-我想将一切旁观，就像那九垓上仙，
+我想将一切旁观，就像那九天上仙，
 </div>
 <div style="text-align: center;">
 将人间万般疾苦都笑谈。
@@ -2974,7 +2983,7 @@
 <h2 style="text-align: center;">久别离</h1>
 
 <div style="text-align: center;">
-六月盛夏今复至，三度犹似初来时。
+昊天景风蝉鸣日，三度犹似初来时。
 </div>
 <div style="text-align: center;">
 此间悲欢事，多少已不知。
@@ -3180,7 +3189,7 @@
 <br>
 </div>
 <div style="text-align: center;">
-雷落雨喧嚣，听寒风呼啸，
+雷落雨喧嚣，坐听风怒号，
 </div>
 <div style="text-align: center;">
 晴后不见曩波涛。
@@ -3255,7 +3264,7 @@
 苦待半生风未到。
 </div>
 <div style="text-align: center;">
-杯酒长欢笑，何须声明昭，
+名利徒煎熬，杯酒长欢笑，
 </div>
 <div style="text-align: center;">
 逍遥。
@@ -3267,7 +3276,7 @@
 长歌未尽闻悲萧。
 </div>
 <div style="text-align: center;">
-蜉蝣虽微渺，何羡天地辽，
+蜉蝣虽微渺，何羡天地廖，
 </div>
 <div style="text-align: center;">
 飘摇。
@@ -3309,7 +3318,7 @@
 飞电明灭不过片刻光彩。
 </div>
 <div style="text-align: center;">
-仰视无穷星海，与仙共赏瑶台，
+仰视无穷星海，挟仙共赏瑶台，
 </div>
 <div style="text-align: center;">
 唯有枕席不见向来烟霭。
@@ -3389,7 +3398,7 @@
 第一次因花开而喜，因落英而悲；
 </div>
 <div style="text-align: center;">
-第一次因相遇而喜，因离别而背。
+第一次因相遇而喜，因离别而悲。
 </div>
 <div style="text-align: center;">
 从未有过的悸动，第一次在心头蔓延；
@@ -3467,7 +3476,161 @@
 可以经历一次离合悲欢，虽浮生短促又有何求。
 </div>
 <div style="text-align: center;">
-待我回归自然，再与天同寿。</div>
+待我回归自然，再与天同寿。
+</div>
+
+-----
+
+<h2 style="text-align: center;">低头
+</h1>
+
+<div style="text-align: center;">
+我时常低着头，盯着脚下的阴凉。
+</div>
+<div style="text-align: center;">
+似有一道鸿沟，隔绝我与光亮。
+</div>
+<div style="text-align: center;">
+沉浸在其中，不闻周边的喧嚣。
+</div>
+<div style="text-align: center;">
+享受这静谧，不被他人打扰。
+</div>
+<div style="text-align: center;">
+
+</div>
+<div style="text-align: center;">
+世界那么大，我却不想去转。
+</div>
+<div style="text-align: center;">
+风景那么美，我也没兴趣看。
+</div>
+<div style="text-align: center;">
+
+</div>
+<div style="text-align: center;">
+阳光肆意的挥洒，也有照不亮的阴影。
+</div>
+<div style="text-align: center;">
+狂风尽情的咆哮，也有吹不破的宁静。
+</div>
+<div style="text-align: center;">
+
+</div>
+<div style="text-align: center;">
+我似乎已经习惯了这样，缩在角落旁。
+</div>
+<div style="text-align: center;">
+可不知从哪里来的凄凉，萦绕在心房。
+</div>
+<div style="text-align: center;">
+
+</div>
+<div style="text-align: center;">
+想要试着抬头，却睁不开眼眸。
+</div>
+
+-----
+
+<h2 style="text-align: center;">孤星
+</h1>
+
+<div style="text-align: center;">
+夜空上一颗孤星闪烁，
+</div>
+<div style="text-align: center;">
+却无法驱散这墨色。
+</div>
+<div style="text-align: center;">
+可你仍旧在坚持，
+</div>
+<div style="text-align: center;">
+执拗的令人怅惘。
+</div>
+<div style="text-align: center;">
+
+</div>
+<div style="text-align: center;">
+你又何必如此努力，
+</div>
+<div style="text-align: center;">
+怎么都不肯放弃？
+</div>
+<div style="text-align: center;">
+明明没有日月的光辉，
+</div>
+<div style="text-align: center;">
+也没有同伴一起。
+</div>
+<div style="text-align: center;">
+却仍旧试图点亮冥晦，
+</div>
+<div style="text-align: center;">
+不问是否有意义。
+</div>
+<div style="text-align: center;">
+
+</div>
+<div style="text-align: center;">
+真是愚蠢的不可救药，
+</div>
+<div style="text-align: center;">
+做着注定徒劳无获的努力。
+</div>
+<div style="text-align: center;">
+不肯向黑暗妥协，
+</div>
+<div style="text-align: center;">
+独自在黑暗中傲立。
+</div>
+<div style="text-align: center;">
+
+</div>
+<div style="text-align: center;">
+不过几个闲人的目光，
+</div>
+<div style="text-align: center;">
+哪值得你如此。
+</div>
+<div style="text-align: center;">
+或许你天真的以为一点光亮
+</div>
+<div style="text-align: center;">
+便可以帮助他们至少度过眼前的彷徨。
+</div>
+<div style="text-align: center;">
+像个傻子一样。
+</div>
+<div style="text-align: center;">
+可正是有了你，
+</div>
+<div style="text-align: center;">
+世界才完整，这夜才不那么冰冷。
+</div>
+
+-----
+
+<h2 style="text-align: center;">无声歌
+</h1>
+
+<div style="text-align: center;">
+我与长啸惊九天，一曲狂歌凌云间。
+</div>
+<div style="text-align: center;">
+举觞邀霹雳，吾与尔为亲。
+</div>
+<div style="text-align: center;">
+光耀青冥群生栗，声震九垓山河殷。
+</div>
+<div style="text-align: center;">
+启齿欲叱咤，无声徒喑喑。
+</div>
+<div style="text-align: center;">
+豪情虽万丈，似有人塞堙。
+</div>
+<div style="text-align: center;">
+久思弗得因，盖吾有所懔。
+</div>
 
 -----
 
