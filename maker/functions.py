@@ -156,6 +156,7 @@ def make_md(texts_dir, output='../Poetry.md'):
 
         f.write('\n')
 
+        f.write('<div style="text-align: center;">\n\n')
         # 写入诗词正文
         for poem in poems:
             # 读取诗名
@@ -163,7 +164,7 @@ def make_md(texts_dir, output='../Poetry.md'):
                 poem_name = file.read()
 
             # 写入诗名
-            f.write('<h2 style="text-align: center;">{0}</h1>\n\n'.format(poem_name))
+            f.write('# {0}\n\n'.format(poem_name))
 
             # 读取诗正文
             with open(texts_dir + poem + '/body.txt', encoding='utf-8') as file:
@@ -171,11 +172,12 @@ def make_md(texts_dir, output='../Poetry.md'):
 
             # 写入诗正文
             for line in poem_body:
-                f.write('<div style="text-align: center;">\n{0}</div>\n'.format(line))
+                f.write('{0}\n'.format(line))
 
             # 写入分隔符
             f.write('\n-----\n\n')
 
+        f.write('</div>')
 
 def make(texts_dir: str, model_1: str, model_2: str, output: str, catalogue: str, md_file='../Poetry.md'):
     """
