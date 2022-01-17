@@ -145,7 +145,7 @@ def make_md(texts_dir, output='../Poetry.md'):
         for poem in poems:
             # 读取诗名
             with open(texts_dir + poem + '/name.txt', encoding='utf-8') as file:
-                poem_name = file.read()
+                poem_name = file.read().replace('/n', '')
 
             # Markdown目录索引
             index = poem_name.replace('（', '')
