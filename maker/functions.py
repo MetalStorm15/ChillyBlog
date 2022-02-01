@@ -141,30 +141,34 @@ def make_md(texts_dir, output='../Poetry.md'):
     with open(output, 'w', encoding='utf-8') as f:
         # 写入大标题
         f.write('# 支离诗集\n\n')
+
         # 写入目录
+        timer = 0
         for poem in poems:
             # 读取诗名
             with open(texts_dir + poem + '/name.txt', encoding='utf-8') as file:
                 poem_name = file.read().replace('/n', '')
 
             # Markdown目录索引
-            index = poem_name.replace('（', '')
-            index = index.replace('）', '')
+            index = str(timer)
+            timer += 1
 
             # 写入目录
-            f.write('+ [{0}](#{1})\n'.format(poem_name, index))
+            f.write('+ <a href="#{1}">{0}</a>\n'.format(poem_name, index))
 
         f.write('\n')
 
         f.write('<div style="text-align: center;">\n\n')
         # 写入诗词正文
+        timer = 0
         for poem in poems:
             # 读取诗名
             with open(texts_dir + poem + '/name.txt', encoding='utf-8') as file:
                 poem_name = file.read()
 
             # 写入诗名
-            f.write('# {0}\n\n'.format(poem_name))
+            f.write('<h2 id="{0}">{1}</h2>\n\n'.format(str(timer), poem_name))
+            timer += 1
 
             # 读取诗正文
             with open(texts_dir + poem + '/body.txt', encoding='utf-8') as file:
