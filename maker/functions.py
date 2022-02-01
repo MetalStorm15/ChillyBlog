@@ -140,10 +140,12 @@ def make_md(texts_dir, output='../Poetry.md'):
     # 写入诗词正文
     with open(output, 'w', encoding='utf-8') as f:
         # 写入大标题
-        f.write('# 支离诗集\n\n')
+        f.write('<h1 style="text-align: center">支离诗集</h1>\n\n')
+        f.write('<h2 style="text-align: center">目录</h2>\n\n')
 
         # 写入目录
-        timer = 0
+        f.write('<div style="margin-left: 30%">\n\n')
+        timer = 1
         for poem in poems:
             # 读取诗名
             with open(texts_dir + poem + '/name.txt', encoding='utf-8') as file:
@@ -154,13 +156,13 @@ def make_md(texts_dir, output='../Poetry.md'):
             timer += 1
 
             # 写入目录
-            f.write('+ <a href="#{1}">{0}</a>\n'.format(poem_name, index))
+            f.write('{1}. <a href="#{1}">{0}</a>\n'.format(poem_name, index))
 
         f.write('\n')
-
+        f.write('</div>')
         f.write('<div style="text-align: center;">\n\n')
         # 写入诗词正文
-        timer = 0
+        timer = 1
         for poem in poems:
             # 读取诗名
             with open(texts_dir + poem + '/name.txt', encoding='utf-8') as file:
