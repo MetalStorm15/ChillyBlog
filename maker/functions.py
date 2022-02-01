@@ -1,18 +1,15 @@
 import os
 
 
-def make_sites(texts_dir, model_loc, output, contents_list):
+def make_sites(texts_dir: str, model_loc: str, output: str, contents_list: str):
+    """此函数用于制作各个诗歌的网页
+
+    Args:
+        texts_dir (str): 诗歌源文件目录
+        model_loc (str): 诗歌网页模板
+        output (str): 诗歌网页输出目录
+        contents_list (str): 目录字符串
     """
-    texts_dir: the directory where the texts stored.
-    model_loc: the location of the file containing the model for the sites showing the poetry.
-    output: the directory storing the html files.
-    catalogue_file: the location of the catalogue_file file.
-
-    Note: The '/' at end is necessary.
-
-    This function is used for making the sites showing the powtry.
-    """
-
     # 获取文件名
     poems = os.listdir(texts_dir)
 
@@ -66,17 +63,17 @@ def make_sites(texts_dir, model_loc, output, contents_list):
             file.write(model)
 
 
-def make_catalogue(texts_dir, model_loc, catalogue):
+def make_catalogue(texts_dir: str, model_loc: str, catalogue: str):
+    """"本函数用于制作首页网页
+
+    Args:
+        texts_dir (str): 诗歌源文件目录
+        model_loc (str): 首页模板目录
+        catalogue (str): 要制作首页文件名
+
+    Returns:
+        [str]: 目录字符, 用于插入其他文档
     """
-    texts_dir: the directory where the texts stored.
-    model_loc: the file containing the model for the contents.
-    output: the catalogue_file file made by this function.
-
-    Note: The '/' at end is necessary.
-
-    This function is used for making the contents file.
-    """
-
     # 读取文件夹名
     file_names = os.listdir(texts_dir)
     files = []
@@ -111,14 +108,13 @@ def make_catalogue(texts_dir, model_loc, catalogue):
 
     return contents_list_page
 
-def make_md(texts_dir, output='../Poetry.md'):
-    """
-    texts_dir: the directory containing all you texts.
-    output: the file produced.
+def make_md(texts_dir: str, output:str):
+    """本函数用于制作所有诗歌的汇总文件
 
-    To create a markdown file which contains all the contents of the poetry.
+    Args:
+        texts_dir (str): 诗歌源文件目录
+        output (str, optional): 诗歌汇总md文件名.
     """
-
     # 读取文件夹
     poems = os.listdir(texts_dir)
     poem_numbers = []
@@ -185,22 +181,45 @@ def make_md(texts_dir, output='../Poetry.md'):
 
         f.write('</div>')
 
-def make(texts_dir: str, model_1: str, model_2: str, output: str, catalogue: str, md_file='../Poetry.md'):
+
+def make_poems(texts_dir: str, output: str):
+    """本函数用于制作诗歌的单个文件。
+
+    Args:
+        texts_dir (str): 源文件目录
+        output (str): 输出的诗歌单文件的存储目录
     """
-    texts_dir: the directory containing all you texts.
-    model_1: the model for sites.
-    model_2: the model for catalogue_file.
-    output: the directory containing all the produced files.
-    md_file: the markdown file containing all the poetry.
-    catalogue_file: the catalogue_file file produced by make_contents() and also the one used in make_sites().
+    poems = os.listdir(texts_dir)
+    for poem in poems:
+        with open(texts_dir + poem + '/name.txt', encoding='utf-8') as file:
+            poem_name = file.read().replace('/n', '')
 
-    Note: the catalogue_file file must in the output directory.
+        with open(texts_dir + poem + '/body.txt', encoding='utf-8') as file:
+            poem_body = file.readlines()
 
-    This is a function to build websites files for poetry.
+        with open(output + '{0}.md'.format(poem_name), 'w', encoding='utf-8') as file:
+            file.write('# ' + poem_name + '\n\n')
+
+            for line in poem_body:
+                file.write(line + '\n')
+
+
+def make(texts_dir: str, model_1: str, model_2: str, output: str, index: str, md_file: str, poems_dir: str):
+    """
+    运行本函数即可完成所有工作的构建。
+        
+    texts_dir: 文档源文件目录
+    model_1: 诗歌网页模板
+    model_2: 首页网页模板
+    output: 制作完成的网页的目录
+    index: 首页网页
+    md_file: 总md文件
+    poems_dir: 单个诗歌文件目录
     """
     # 制作目录文件
-    contents_list = make_catalogue(texts_dir, model_2, catalogue)
+    contents_list = make_catalogue(texts_dir, model_2, index)
     # 制作网页文件
     make_sites(texts_dir, model_1, output, contents_list)
     # 制作Markdown文件
     make_md(texts_dir, md_file)
+    make_poems(texts_dir, poems_dir)

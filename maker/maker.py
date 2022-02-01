@@ -18,4 +18,6 @@ model_sites = '../resources/models/model-page.html'
 model_catalogue = '../resources/models/model-catalogue.html'
 output_dir = '../pages/'
 catalogue_file = '../index.html'
-make(texts, model_sites, model_catalogue, output_dir, catalogue_file)
+md_file = '../Poetry.md'
+poems_dir = '../poems/'
+make(texts_dir=texts, model_1=model_sites, model_2=model_catalogue,  output=output_dir, catalogue=catalogue_file, md_file=md_file, poems_dir=poems_dir)
