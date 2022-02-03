@@ -3,7 +3,7 @@ SITENAME = '支离的个人博客'
 SITEURL = ''
 
 PATH = 'content'
-
+OUTPUT_PATH = './'
 TIMEZONE = 'Europe/Rome'
 
 DEFAULT_LANG = 'Chinese (Simplified)'
