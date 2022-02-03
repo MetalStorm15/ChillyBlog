@@ -1,0 +1,19 @@
+{% extends "base.html" %}
+{% block title %}{{ SITENAME }}的档案{% endblock %}
+{% block content %}  
+                        	<div id="content">
+					<div class="post">
+					<dl>
+						<h2 class="title">{{ SITENAME }}的档案</h2>
+						{% for article in dates %}
+                                                    <dt>{{ article.locale_date }}</dt>
+                                                    <dd><a href='{{ article.url }}'>{{ article.title }}</a></dd>
+                                                    <dd>分类: <a href="{{ SITEURL }}/{{ article.category.url }}">{{ article.category }}</a></dd>
+                                                {% endfor %}
+                                                </dl>
+					</div>
+			        
+					<div style="clear: both;">&nbsp;</div>
+				</div>
+				<!-- end #content -->
+{% endblock %}

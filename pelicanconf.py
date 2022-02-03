@@ -1,11 +1,10 @@
 AUTHOR = '支离'
-SITENAME = '支离的个人博客'
-SITEURL = ''
+SITENAME = '支离的博客'
+SITEURL = '.'
 
 PATH = 'content'
 OUTPUT_PATH = './'
-TIMEZONE = 'Europe/Rome'
-
+TIMEZONE = 'Asia/Shanghai'
 DEFAULT_LANG = 'Chinese (Simplified)'
 
 # Feed generation is usually not desired when developing
@@ -25,7 +24,9 @@ LINKS = (('Pelican', 'https://getpelican.com/'),
 SOCIAL = (('You can add links in your config file', '#'),
           ('Another social link', '#'),)
 
-DEFAULT_PAGINATION = False
+DEFAULT_PAGINATION = 3
 
 # Uncomment following line if you want document-relative URLs when developing
-#RELATIVE_URLS = True
+# RELATIVE_URLS = True
+
+THEME = './pelican-themes/brownstone'
