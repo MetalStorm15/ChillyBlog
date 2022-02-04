@@ -11,7 +11,7 @@
             {% if loop.index < 4 %}
               {{ macros.article_summary(a,SITEURL,False,False,disqus=DISQUS_SITENAME) }}
             {% elif loop.index == 4 %}
-              <a class="button" href="{{ SITEURL }}/{{ cat.url }}">See All&hellip;</a>
+              <a class="button" href="{{ SITEURL }}/{{ cat.url }}">全部&hellip;</a>
             {% endif %}
         {% endfor %}
         {% if not loop.last %}

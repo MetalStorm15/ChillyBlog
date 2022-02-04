@@ -1,9 +1,9 @@
 AUTHOR = '支离'
 SITENAME = '支离的博客'
-SITEURL = '.'
+SITEURL = '/'
 
 PATH = 'content'
-OUTPUT_PATH = './output'
+OUTPUT_PATH = './'
 TIMEZONE = 'Asia/Shanghai'
 DEFAULT_LANG = 'Chinese (Simplified)'
 
@@ -27,7 +27,7 @@ SOCIAL = (('知乎：支离-Chilly', 'https://www.zhihu.com/people/jin-shu-feng-
 DEFAULT_PAGINATION = 20
 
 # Uncomment following line if you want document-relative URLs when developing
-RELATIVE_URLS = True
+#RELATIVE_URLS = True
 
 THEME = './pelican-theme/backdrop'
 PAGINATED_DIRECT_TEMPLATES = ('categories', 'archives')
