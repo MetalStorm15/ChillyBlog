@@ -1,6 +1,6 @@
 AUTHOR = '支离'
 SITENAME = '支离的博客'
-SITEURL = '/'
+SITEURL = '.'
 
 PATH = 'content'
 OUTPUT_PATH = './'
@@ -27,9 +27,9 @@ SOCIAL = (('知乎：支离-Chilly', 'https://www.zhihu.com/people/jin-shu-feng-
 DEFAULT_PAGINATION = 20
 
 # Uncomment following line if you want document-relative URLs when developing
-#RELATIVE_URLS = True
+RELATIVE_URLS = True
 
 THEME = './pelican-theme/backdrop'
 PAGINATED_DIRECT_TEMPLATES = ('categories', 'archives')
 EMAIL = 'metalstorm15@163.com'
-BACKDROP_IMAGE = "/images/bg.jpg"
+BACKDROP_IMAGE = "https://pic2.zhimg.com/80/v2-892af670f6d0ad7b46564dfa8c3858b0_720w.jpg?source=1940ef5c"
